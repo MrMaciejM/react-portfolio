@@ -1,0 +1,10 @@
+header nav {
+  display: flex;
+  justify-content: right;
+}
+header nav {
+  margin-top: 0.3rem;
+}
+header nav:nth-child(1) {
+  gap: 1rem;
+}
