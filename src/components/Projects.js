@@ -1,62 +1,33 @@
+import Carousel from "react-bootstrap/Carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Projects.css";
+
 function Projects() {
   //
   return (
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-ride="carousel"
-    >
-      <ol class="carousel-indicators">
-        <li
-          data-target="#carouselExampleIndicators"
-          data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            class="d-block w-100"
-            src={require("../assets/images/daily-planner.png")}
-            alt="First slide"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src={require("../assets/images/weather-app.png")}
-            alt="Second slide"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src={require("../assets/images/landing-page-v1.png")}
-            alt="Third slide"
-          />
-        </div>
-      </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+    <Carousel interval={null} variant={"dark"} className={"carouselMain"}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={require("../assets/images/daily-planner.png")}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={require("../assets/images/weather-app.png")}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={require("../assets/images/landing-page-v1.png")}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    </Carousel>
   );
 }
 

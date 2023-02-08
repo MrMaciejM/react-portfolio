@@ -25,7 +25,8 @@ a {
 }
 /* IMAGE SIZE */
 img {
-  width: 60%;
+  height: 350px !important;
+  border-radius: 11px;
 }
 body {
   font-family: "Ubuntu", sans-serif;

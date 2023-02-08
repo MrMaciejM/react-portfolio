@@ -1,0 +1,13 @@
+:root {
+  --links: #52e055;
+}
+.carouselMain {
+  margin: 1.4rem !important;
+  box-shadow: 0 0 7px 2px var(--links);
+  border-radius: 11px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+  filter: invert(0);
+}
