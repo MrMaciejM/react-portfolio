@@ -8,6 +8,7 @@
 :root {
   --background: #252525;
   --links: #52e055;
+  --white: #fff;
   /* 
   Green styles
   #28de2b 
@@ -18,6 +19,20 @@
 a {
   color: var(--links);
   text-decoration: none;
+  padding: 0 0.3rem;
+  margin: 0 0.1rem;
+  border-radius: 11px;
+  transition: all 0.5s;
+}
+/* LINKS STYLING AND EFFECTS */
+a:hover {
+  color: var(--white);
+  box-shadow: 0 0 5px 2px var(--links);
+  transition: all 0.5s;
+}
+a:active {
+  box-shadow: 0 0 5px 3px var(--white);
+  transition: all 0.1s;
 }
 /* FONT SIZE */
 a {
@@ -36,6 +51,7 @@ h2 {
   text-align: center;
   color: var(--links);
 }
+
 /* *********** */
 body {
   font-family: "Ubuntu", sans-serif;
