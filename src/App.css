@@ -24,6 +24,9 @@ a {
   border-radius: 11px;
   transition: all 0.5s;
 }
+p {
+  color: var(--white);
+}
 /* LINKS STYLING AND EFFECTS */
 header nav a:hover {
   color: var(--white);

@@ -19,6 +19,72 @@ a {
 }
 
 .projectsSection p {
-  margin: 0 15%;
+  margin: 1rem 5%;
   text-align: center;
+}
+/* PROJECTS STYLING AND ALIGNMENT */
+.projectsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.projectWrapper {
+  width: 85%;
+}
+.projectWrapper div {
+  /* border: 2px solid var(--links); */
+  box-shadow: 0 0 7px 2px var(--links);
+  border-radius: 11px;
+  margin-bottom: 2rem;
+  padding-bottom: 0.1rem;
+}
+/* setting image size */
+.projectWrapper div img {
+  width: 100%;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* Tech Div that wraps spans of tech */
+.techDiv {
+  border: none !important;
+  box-shadow: none !important;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0.2rem;
+  justify-content: center;
+}
+/* TECH STACKS ELEMENTS */
+.tech,
+.tech2 {
+  color: white;
+  margin-right: 0.1rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.techHtml {
+  margin-left: 0.3rem;
+  background-color: #ff9e0d;
+}
+.techCss {
+  margin-left: 0.3rem;
+  background-color: #005be4;
+}
+
+.techJquery {
+  margin-left: 0.3rem;
+  background-color: #2e8bc1;
+}
+.techJS {
+  margin-left: 0.3rem;
+  color: black;
+  background-color: #fafa00;
+}
+.techMoment {
+  margin-left: 0.3rem;
+  background-color: #5b5b5b;
 }

@@ -23,7 +23,7 @@
   width: 10rem !important;
   height: 10rem !important;
   border-radius: 50%;
-  box-shadow: 0 0 10px 1px #52e055;
+  /* box-shadow: 0 0 10px 10px #52e055; */
 }
 /* Animation */
 .introSection {
@@ -72,7 +72,7 @@
     box-shadow: 0 0 10px 2px #7ddf7f;
   }
   50% {
-    box-shadow: 0 0 10px 2px #fff;
+    box-shadow: 0 0 15px 5px #fff;
   }
   75% {
     box-shadow: 0 0 10px 2px #7ddf7f;
