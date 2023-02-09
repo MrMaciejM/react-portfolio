@@ -1,0 +1,43 @@
+.introSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.introSection h2 span {
+  color: #52e055;
+}
+.underlineSpan {
+  text-decoration: underline #52e055;
+}
+
+.introHeading,
+p {
+  color: white !important;
+}
+.introSection p {
+  margin: 0 10%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.profilePic {
+  width: 10rem !important;
+  height: 10rem !important;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 1px #52e055;
+}
+/* Animation */
+.introSection {
+  animation-name: fadein;
+  animation-duration: 5s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    padding-right: 20%;
+  }
+  to {
+    opacity: 1;
+    padding-right: 0;
+  }
+}

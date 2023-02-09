@@ -23,11 +23,20 @@ a {
 a {
   font-size: 1.2rem;
 }
+h2 {
+  font-size: 1.6rem !important;
+}
 /* IMAGE SIZE */
 img {
   height: 350px !important;
   border-radius: 11px;
 }
+/* Section Headings */
+h2 {
+  text-align: center;
+  color: var(--links);
+}
+/* *********** */
 body {
   font-family: "Ubuntu", sans-serif;
   background-color: var(--background);

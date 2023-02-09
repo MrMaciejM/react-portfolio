@@ -1,3 +1,6 @@
+header {
+  margin-bottom: 2rem;
+}
 header nav {
   display: flex;
   justify-content: right;
