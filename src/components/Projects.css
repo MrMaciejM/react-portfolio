@@ -1,6 +1,7 @@
 :root {
   --links: #52e055;
 }
+
 .carouselMain {
   margin: 1.4rem !important;
   box-shadow: 0 0 7px 2px var(--links);
@@ -10,4 +11,14 @@
 .carousel-control-next {
   opacity: 1;
   filter: invert(0);
+  width: 7%;
+}
+a {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.projectsSection p {
+  margin: 0 15%;
+  text-align: center;
 }

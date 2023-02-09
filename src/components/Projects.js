@@ -1,35 +1,18 @@
-import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Projects.css";
 
 function Projects() {
   //
   return (
-    <section>
+    <section className="projectsSection">
       <h2>Projects</h2>
-      <Carousel interval={null} variant={"dark"} className={"carouselMain"}>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={require("../assets/images/daily-planner.png")}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={require("../assets/images/weather-app.png")}
-            alt="Second slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={require("../assets/images/landing-page-v1.png")}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-      </Carousel>
+      <div className="projectsContainer">
+        <div className="projectWrapper">
+          <div>
+            <p>Sample text</p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

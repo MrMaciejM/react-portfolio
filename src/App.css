@@ -25,17 +25,17 @@ a {
   transition: all 0.5s;
 }
 /* LINKS STYLING AND EFFECTS */
-a:hover {
+header nav a:hover {
   color: var(--white);
   box-shadow: 0 0 5px 2px var(--links);
   transition: all 0.5s;
 }
-a:active {
+header nav a:active {
   box-shadow: 0 0 5px 3px var(--white);
   transition: all 0.1s;
 }
 /* FONT SIZE */
-a {
+header nav a {
   font-size: 1.2rem;
 }
 h2 {
@@ -43,7 +43,7 @@ h2 {
 }
 /* IMAGE SIZE */
 img {
-  height: 350px !important;
+  height: 300px !important;
   border-radius: 11px;
 }
 /* Section Headings */
