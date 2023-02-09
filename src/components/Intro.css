@@ -29,7 +29,7 @@ p {
 /* Animation */
 .introSection {
   animation-name: fadein;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 @keyframes fadein {
   from {
