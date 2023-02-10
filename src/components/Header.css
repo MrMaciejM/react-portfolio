@@ -4,10 +4,13 @@ header {
 header nav {
   display: flex;
   justify-content: right;
+  max-width: 100%;
 }
 header nav {
-  margin-top: 0.3rem;
+  margin-top: 0.6rem;
 }
-header nav:nth-child(1) {
-  gap: 1rem;
+
+header nav a {
+  padding: 0 0.3rem !important;
+  margin: 0 0.2rem !important;
 }

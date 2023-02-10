@@ -236,7 +236,6 @@ function Projects() {
           {/* End of Project 6*/}
         </div>
       </div>
-      <div className="divider"></div>
     </section>
   );
 }
