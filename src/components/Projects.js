@@ -32,6 +32,22 @@ function Projects() {
               <span className=" tech techJS">JS</span>
               <span className=" tech techMoment">Moment.js</span>
             </div>
+            <div className="projectLinksBottom">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://mrmaciejm.github.io/daily-planner-app/"
+              >
+                Site
+              </a>
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://github.com/MrMaciejM/daily-planner-app"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
           {/* Project 2 - weather dashboard */}
           <div className="projectsWrapperDiv">
@@ -58,6 +74,22 @@ function Projects() {
               <span className=" tech techApi">API</span>
               <span className=" tech bstrap">Bootstrap</span>
             </div>
+            <div className="projectLinksBottom">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://mrmaciejm.github.io/weather-dashboard/"
+              >
+                Site
+              </a>
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://github.com/MrMaciejM/weather-dashboard"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
           {/* Project 3 - pwd generator */}
           <div className="projectsWrapperDiv">
@@ -79,6 +111,22 @@ function Projects() {
               <span className="tech techHtml">HTML5</span>
               <span className=" tech techCss">CSS3</span>
               <span className=" tech techJS">JS</span>
+            </div>
+            <div className="projectLinksBottom">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://mrmaciejm.github.io/password-generator/"
+              >
+                Site
+              </a>
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://github.com/MrMaciejM/password-generator"
+              >
+                GitHub
+              </a>
             </div>
           </div>
           {/* End of Project 3*/}
@@ -106,6 +154,22 @@ function Projects() {
               <span className=" tech techJquery">jQuery</span>
               <span className=" tech techApi">API</span>
             </div>
+            <div className="projectLinksBottom">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://mrmaciejm.github.io/readify/"
+              >
+                Site
+              </a>
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://github.com/MrMaciejM/readify"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
           {/* End of Project 4*/}
           {/* Project 5 - Landing Page*/}
@@ -130,8 +194,46 @@ function Projects() {
               <span className=" tech techCss">CSS3</span>
               <span className=" tech techJS">JS</span>
             </div>
+            <div className="projectLinksBottom">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://mrmaciejm.github.io/product-landing-page-v1/"
+              >
+                Site
+              </a>
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://github.com/MrMaciejM/product-landing-page-v1"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
           {/* End of Project 5*/}
+          {/* Project 6*/}
+          <div className="projectsWrapperDiv">
+            <a target={"_blank"} rel={"noreferrer"} href="#_blank">
+              <img
+                src={require("../assets/images/windows-wait.png")}
+                alt={"Node.js team generator project"}
+              />
+            </a>
+            <p>
+              <strong>Coming soon</strong>: Node.js team generator project.
+            </p>
+            <div className="techDiv">
+              <span className="tech techHtml">HTML5</span>
+              <span className=" tech techCss">CSS3</span>
+              <span className=" tech nodejs">Node.js</span>
+            </div>
+            <div className="projectLinksBottom">
+              <a href="#_blank">Site</a>
+              <a href="#_blank">GitHub</a>
+            </div>
+          </div>
+          {/* End of Project 6*/}
         </div>
       </div>
       <div className="divider"></div>

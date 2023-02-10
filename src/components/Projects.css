@@ -1,9 +1,7 @@
 :root {
   --links: #52e055;
 }
-h2 {
-  /* margin-bottom: 3rem; */
-}
+
 .divider {
   height: 3px;
   width: 90%;
@@ -12,17 +10,7 @@ h2 {
   margin: 3rem auto;
   border-radius: 5px;
 }
-/* .carouselMain {
-  margin: 1.4rem !important;
-  box-shadow: 0 0 7px 2px var(--links);
-  border-radius: 11px;
-}
-.carousel-control-prev,
-.carousel-control-next {
-  opacity: 1;
-  filter: invert(0);
-  width: 7%;
-} */
+
 a {
   margin: 0 !important;
   padding: 0 !important;
@@ -114,11 +102,30 @@ a {
   background-color: purple;
   color: white;
 }
+.nodejs {
+  background-color: #60c48a;
+  color: white;
+}
+
+.projectLinksBottom {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+}
+.projectLinksBottom a {
+  color: black;
+  background-color: #54fc57;
+  border-radius: 5px;
+  padding: 0.3rem 5rem !important;
+  margin-top: 1.2rem !important;
+}
+
 /* *************** */
 /* ANIMATIONS */
 .projectsWrapperDiv {
   /* box-shadow: 10px 0 20px 1px #ffffff !important; */
-  animation: myAnim 7s ease-in infinite;
+  animation: myAnim 8s ease-in infinite;
 }
 @keyframes myAnim {
   /* offset-x | offset-y */
@@ -126,7 +133,7 @@ a {
     box-shadow: 0px 0px 10px 5px #028b3d;
   }
   50% {
-    box-shadow: 0px 0px 10px 5px #0bcb5f;
+    box-shadow: 0px 0px 10px 5px #09e96a;
   }
   100% {
     box-shadow: 0px 0px 10px 5px #028b3d;

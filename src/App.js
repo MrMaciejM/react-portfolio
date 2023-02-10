@@ -7,6 +7,9 @@ import "./components/Intro.css";
 import Projects from "./components/Projects";
 import "./App.css";
 
+import About from "./components/About";
+import "./components/About.css";
+
 function App() {
   return (
     //
@@ -14,6 +17,7 @@ function App() {
       <Header></Header>
       <Intro></Intro>
       <Projects></Projects>
+      <About></About>
     </div>
   );
 }

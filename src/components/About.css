@@ -1,0 +1,22 @@
+h2 {
+  margin-bottom: 2rem;
+}
+.aboutContainer {
+  /* border: 2px solid #52e055; */
+  border-radius: 9px;
+  margin: 0 1rem;
+  background-color: black;
+}
+.aboutContainer p {
+  margin: 0.5rem 2rem;
+}
+.smallDivider {
+  height: 2px;
+  background-color: #52e055;
+  margin: 1rem 1rem;
+}
+.outsideWorkText {
+  /*  */
+  text-decoration: underline;
+  text-decoration-color: #52e055;
+}

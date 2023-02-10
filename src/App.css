@@ -26,6 +26,7 @@ a {
 }
 p {
   color: var(--white);
+  text-align: center;
 }
 /* LINKS STYLING AND EFFECTS */
 header nav a:hover {
