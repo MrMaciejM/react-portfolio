@@ -1,8 +1,18 @@
 :root {
   --links: #52e055;
 }
-
-.carouselMain {
+h2 {
+  /* margin-bottom: 3rem; */
+}
+.divider {
+  height: 3px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  margin: 3rem auto;
+  border-radius: 5px;
+}
+/* .carouselMain {
   margin: 1.4rem !important;
   box-shadow: 0 0 7px 2px var(--links);
   border-radius: 11px;
@@ -12,7 +22,7 @@
   opacity: 1;
   filter: invert(0);
   width: 7%;
-}
+} */
 a {
   margin: 0 !important;
   padding: 0 !important;
@@ -31,12 +41,18 @@ a {
 .projectWrapper {
   width: 85%;
 }
-.projectWrapper div {
+.projectsBorder {
+  padding: 1rem 0.8rem;
+  margin-bottom: 3rem !important;
+  /* box-shadow: 0 0 10px 3px white; */
+  border-radius: 9px;
+}
+.projectsWrapperDiv {
   /* border: 2px solid var(--links); */
   box-shadow: 0 0 7px 2px var(--links);
   border-radius: 11px;
   margin-bottom: 2rem;
-  padding-bottom: 0.1rem;
+  padding-bottom: 0.5rem;
 }
 /* setting image size */
 .projectWrapper div img {
@@ -77,7 +93,8 @@ a {
 
 .techJquery {
   margin-left: 0.3rem;
-  background-color: #2e8bc1;
+  background-color: #02fc90;
+  color: black;
 }
 .techJS {
   margin-left: 0.3rem;
@@ -87,4 +104,31 @@ a {
 .techMoment {
   margin-left: 0.3rem;
   background-color: #5b5b5b;
+}
+.techApi {
+  color: white;
+  margin-left: 0.3rem;
+  background-color: #c10720;
+}
+.bstrap {
+  background-color: purple;
+  color: white;
+}
+/* *************** */
+/* ANIMATIONS */
+.projectsWrapperDiv {
+  /* box-shadow: 10px 0 20px 1px #ffffff !important; */
+  animation: myAnim 7s ease-in infinite;
+}
+@keyframes myAnim {
+  /* offset-x | offset-y */
+  0% {
+    box-shadow: 0px 0px 10px 5px #028b3d;
+  }
+  50% {
+    box-shadow: 0px 0px 10px 5px #0bcb5f;
+  }
+  100% {
+    box-shadow: 0px 0px 10px 5px #028b3d;
+  }
 }
