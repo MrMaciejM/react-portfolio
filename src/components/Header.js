@@ -3,9 +3,9 @@ function Header() {
   return (
     <header>
       <nav>
-        <a href="_#">Projects</a>
-        <a href="_#">About</a>
-        <a href="_#">Contact</a>
+        <a href="/projects">Projects</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
       </nav>
     </header>
   );

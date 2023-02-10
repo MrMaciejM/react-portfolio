@@ -1,3 +1,5 @@
+import { Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
 import "./components/Header.css";
 
@@ -10,14 +12,20 @@ import "./App.css";
 import About from "./components/About";
 import "./components/About.css";
 
+import Contact from "./components/Contact";
+import "./components/Contact.css";
+
 function App() {
   return (
     //
     <div>
       <Header></Header>
-      <Intro></Intro>
-      <Projects></Projects>
-      <About></About>
+      <Routes>
+        <Route path="/" element={<Intro />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
     </div>
   );
 }

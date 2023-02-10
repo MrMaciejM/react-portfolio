@@ -1,0 +1,9 @@
+form {
+  display: grid;
+  color: black;
+  background-color: #52e055;
+  margin: 0 1rem;
+  border-radius: 11px;
+  text-align: center;
+  font-size: 18px;
+}

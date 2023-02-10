@@ -1,8 +1,10 @@
 import "./About.css";
+import "./Projects.css";
 function About() {
   return (
     <section>
       <h2>About</h2>
+      <div className="divider"></div>
       <div className="aboutContainer">
         <p>
           I am an IT professional with over 4.5 years of experience pursuing a
