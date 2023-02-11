@@ -2,9 +2,9 @@ function Intro() {
   //Intro section
   return (
     <section className={"introSection"}>
-      <h2 className={"introHeading"}>
+      <h1 className={"introHeading"}>
         Hi, I'm <span>Maciej</span>.
-      </h2>
+      </h1>
       <p className="smallHeadline">A Front-End developer.</p>
       <img
         className={"profilePic"}

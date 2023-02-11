@@ -4,7 +4,7 @@
   align-items: center;
   margin-bottom: 6rem;
 }
-.introSection h2 span {
+.introSection h1 span {
   color: #52e055;
 }
 .underlineSpan {
@@ -20,8 +20,8 @@
   margin-bottom: 1rem;
 }
 .profilePic {
-  width: 10rem !important;
-  height: 10rem !important;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   /* box-shadow: 0 0 10px 10px #52e055; */
 }

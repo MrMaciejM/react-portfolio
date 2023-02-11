@@ -43,7 +43,7 @@ header nav a {
   font-size: 1.2rem;
 }
 h2 {
-  font-size: 1.6rem !important;
+  font-size: 1.6rem;
 }
 /* IMAGE SIZE */
 img {
@@ -58,12 +58,6 @@ h2 {
 
 /* *********** */
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Mukta", sans-serif;
   background-color: var(--background);
-}
-
-@media screen and (min-width: 300px) {
-  header nav {
-    justify-content: center;
-  }
 }

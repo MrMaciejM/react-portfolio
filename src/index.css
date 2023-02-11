@@ -1,4 +1,61 @@
 /* MEDIA QUERIES */
-@media screen and (min-width: 315px) {
-  /*  */
+@media screen and (min-width: 300px) {
+  header nav {
+    justify-content: center !important;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (min-width: 400px) {
+  /* INTRO */
+  header nav a {
+    font-size: 1.3rem !important;
+  }
+  .introHeading {
+    font-size: 3rem;
+  }
+  .introSection p {
+    font-size: 1.4rem;
+  }
+  .profilePic {
+    width: 14rem !important;
+    height: 14rem !important;
+  }
+  /* PROJECTS */
+  .projectWrapper {
+    width: 80% !important;
+    font-size: 1.1rem;
+  }
+  /* ABOUT */
+  .aboutContainer p {
+    font-size: 1.3rem !important;
+  }
+  /* CONTACT and FORM */
+  form {
+    margin: 0 3rem !important;
+    font-size: 1.4rem !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  /* LINKS and Headline */
+  header nav a {
+    font-size: 1.5rem !important;
+  }
+  h2 {
+    font-size: 3rem !important;
+  }
+  /* PROJECTS */
+  .projectWrapper {
+    width: 60% !important;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  /* Contact form */
+  form {
+    margin: 0 6rem !important;
+  }
 }

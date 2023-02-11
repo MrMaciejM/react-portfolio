@@ -18,28 +18,30 @@ function Contact() {
           return updatedMsg(myMsg);
         }}
       >
-        <div>
-          <label for="name">Name</label>
-          <input name="Name" id="name"></input>
+        <div className="formElementsWrapper">
+          <div>
+            <label for="name">Name</label>
+            <input name="Name" id="name"></input>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input name="Email" id="email"></input>
+          </div>
+          <div className="textAreaDiv">
+            <label for="message">Message</label>
+            <textarea
+              name="Message"
+              id="message"
+              placeholder="Enter your message here..."
+            ></textarea>
+          </div>
+          <div>
+            <button className="btnSubmit" type="submit" value="Download CTA">
+              Submit
+            </button>
+          </div>
+          <p className="msgSentText">{blankMsg}</p>
         </div>
-        <div>
-          <label for="email">Email</label>
-          <input name="Email" id="email"></input>
-        </div>
-        <div className="textAreaDiv">
-          <label for="message">Message</label>
-          <textarea
-            name="Message"
-            id="message"
-            placeholder="Enter your message here..."
-          ></textarea>
-        </div>
-        <div>
-          <button className="btnSubmit" type="submit" value="Download CTA">
-            Submit
-          </button>
-        </div>
-        <p className="msgSentText">{blankMsg}</p>
       </form>
     </section>
   );
