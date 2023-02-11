@@ -62,8 +62,8 @@ function Projects() {
               />
             </a>
             <p>
-              Weather dashboard utilising several tech stacks, however, the main
-              focus of this project was to learn how to use the APIs.
+              Weather dashboard utilising several stacks, however, the main goal
+              was to learn how to use the APIs.
             </p>
             <div className="techDiv">
               <span className="tech techHtml">HTML5</span>
@@ -153,6 +153,7 @@ function Projects() {
               <span className=" tech techJS">JS</span>
               <span className=" tech techJquery">jQuery</span>
               <span className=" tech techApi">API</span>
+              <span className=" tech bstrap">Bootstrap</span>
             </div>
             <div className="projectLinksBottom">
               <a

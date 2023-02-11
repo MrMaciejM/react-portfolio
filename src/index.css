@@ -25,7 +25,7 @@
   /* PROJECTS */
   .projectWrapper {
     width: 80% !important;
-    font-size: 1.1rem;
+    font-size: 1rem !important;
   }
   /* ABOUT */
   .aboutContainer p {
@@ -54,8 +54,81 @@
 }
 
 @media screen and (min-width: 750px) {
-  /* Contact form */
+  /* CONTACT FORM */
   form {
     margin: 0 6rem !important;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  /* PROJECTS */
+
+  .projectWrapper {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    width: 95% !important;
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /* PROJECTS */
+  .projectWrapper {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90% !important;
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+  /* About */
+  .aboutContainer {
+    margin: 0 5rem !important;
+  }
+  /* CONTACT FORM */
+  form {
+    margin: 0 12rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /*  */
+  .projectWrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85% !important;
+    column-gap: 6rem;
+  }
+  /* CONTACT FORM */
+  form {
+    margin: 0 20rem !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /*  */
+  .projectWrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 88% !important;
+    column-gap: 10rem;
+  }
+  /* ABOUT */
+  .aboutContainer {
+    margin: 0 14rem !important;
+  }
+  /* CONTACT FORM */
+  form {
+    margin: 0 24rem !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  /*  */
+  .projectWrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80% !important;
+    column-gap: 12rem;
+  }
+  /* CONTACT FORM */
+  form {
+    margin: 0 38rem !important;
   }
 }

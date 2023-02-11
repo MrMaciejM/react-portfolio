@@ -13,22 +13,17 @@ function About() {
         <p>
           I have discovered my passion for coding while working on a project,
           which required me to learn Powershell scripting language to complete
-          it.
-        </p>
-        <p>
-          Then I have stumbled across a person showcasing their web dev project,
-          connecting to various smarthome devices and controlling them with
-          their custom build website.
+          it. Then I have stumbled across a person showcasing their web dev
+          project, connecting to various smarthome devices and controlling them
+          with their custom build website.
         </p>
         <p>
           The ability to affect the world with coding has really inspired me to
-          pursue it full-time.
+          pursue it full-time. As a result, I have learned many skills, and
+          built several projects showcasing those skills, which I can now use to
+          help someone in their business endeavours.
         </p>
-        <p>
-          As a result, I have learned many skills, and built several projects
-          showcasing those skills, which I can now use to help someone's dream
-          come to fruition.
-        </p>
+
         <div className="smallDivider"></div>
         <p className="outsideWorkText">Outside of work</p>
         <p>Outside of work I like to do various things: </p>

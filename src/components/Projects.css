@@ -88,6 +88,7 @@ a {
   margin-left: 0.3rem;
   color: black;
   background-color: #fafa00;
+  padding: 0 0.6rem;
 }
 .techMoment {
   margin-left: 0.3rem;
@@ -100,6 +101,7 @@ a {
 }
 .bstrap {
   background-color: purple;
+  margin-left: 0.3rem;
   color: white;
 }
 .nodejs {
@@ -125,17 +127,26 @@ a {
 /* ANIMATIONS */
 .projectsWrapperDiv {
   /* box-shadow: 10px 0 20px 1px #ffffff !important; */
-  animation: myAnim 8s ease-in infinite;
+  animation: myAnim 12s ease-in infinite;
 }
 @keyframes myAnim {
   /* offset-x | offset-y */
   0% {
-    box-shadow: 0px 0px 10px 5px #028b3d;
+    box-shadow: 0px 0px 10px 5px #2a2a2a;
+    /* 028b3d */
+  }
+  25% {
+    box-shadow: 0px 0px 10px 5px #2a2a2a;
+    /* 028b3d */
   }
   50% {
     box-shadow: 0px 0px 10px 5px #09e96a;
   }
+  75% {
+    box-shadow: 0px 0px 10px 5px #2a2a2a;
+    /* 028b3d */
+  }
   100% {
-    box-shadow: 0px 0px 10px 5px #028b3d;
+    box-shadow: 0px 0px 10px 5px #2a2a2a;
   }
 }
