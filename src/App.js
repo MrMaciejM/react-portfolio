@@ -21,7 +21,7 @@ function App() {
     <div>
       <Header></Header>
       <Routes>
-        <Route path="/" element={<Intro />}></Route>
+        <Route path="/react-portfolio" element={<Intro />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
