@@ -50,6 +50,7 @@ button:active {
 }
 .contactIconsContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   /* margin: 0 6rem; */
   margin-top: 2rem;
