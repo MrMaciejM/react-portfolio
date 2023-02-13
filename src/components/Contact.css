@@ -64,10 +64,20 @@ button:active {
 .socialIconsImg {
   /* border: 2px solid black; */
   width: 70%;
-  height: 100% !important;
+  height: 75% !important;
 }
 .gitHubImg {
   color: white;
   filter: invert(1);
   /* inverts color to change github kitty to white/black */
+}
+.cvLinkWrapper {
+  /* margin-top: 1rem !important; */
+}
+.cvImg {
+  height: 65% !important;
+}
+.socialIconsLink p {
+  margin: 0 !important;
+  padding: 0 !important;
 }

@@ -69,6 +69,20 @@ function Contact() {
             alt="GitHub icon"
           />
         </a>
+        {/* Resume/CV */}
+        <a
+          className="socialIconsLink cvLink"
+          href="../assets/Maciej_Matulewicz_CV.pdf"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <img
+            className="socialIconsImg cvImg"
+            src="https://img.icons8.com/color/96/null/pdf.png"
+            alt="CV icon"
+          />
+          <p>CV</p>
+        </a>
       </div>
     </section>
   );
