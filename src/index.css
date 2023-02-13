@@ -1,4 +1,4 @@
-/* MEDIA QUERIES */
+/***** MEDIA QUERIES *****/
 @media screen and (min-width: 300px) {
   header nav {
     justify-content: center !important;
@@ -120,15 +120,26 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  /* CONTACT FORM */
+  form {
+    margin: 0 36rem !important;
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  /* CONTACT FORM */
+  form {
+    margin: 0 42rem !important;
+  }
+}
+
 @media screen and (min-width: 2000px) {
   /*  */
   .projectWrapper {
     grid-template-columns: 1fr 1fr 1fr;
     width: 80% !important;
     column-gap: 12rem;
-  }
-  /* CONTACT FORM */
-  form {
-    margin: 0 38rem !important;
   }
 }
