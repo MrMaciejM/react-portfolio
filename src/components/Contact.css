@@ -48,3 +48,25 @@ button:active {
 .msgSentText {
   color: black;
 }
+.contactIconsContainer {
+  display: flex;
+  justify-content: center;
+  /* margin: 0 6rem; */
+  margin-top: 2rem;
+  border-radius: 11px;
+  text-align: center;
+  /* background-color: #52e055; */
+  gap: 1rem;
+  padding: 1rem;
+  /* text-align centers the icon, which for some reason reacts to text alignment */
+}
+.socialIconsImg {
+  /* border: 2px solid black; */
+  width: 70%;
+  height: 100% !important;
+}
+.gitHubImg {
+  color: white;
+  filter: invert(1);
+  /* inverts color to change github kitty to white/black */
+}

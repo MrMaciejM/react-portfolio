@@ -43,8 +43,35 @@ function Contact() {
           <p className="msgSentText">{blankMsg}</p>
         </div>
       </form>
+      <div className="contactIconsContainer">
+        <a
+          className="socialIconsLink"
+          href="https://www.linkedin.com/in/maciejmatulewicz/"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <img
+            className="socialIconsImg"
+            src="https://img.icons8.com/color/96/null/linkedin-circled--v1.png"
+            alt="linked in icon"
+          />
+        </a>
+        {/* github link */}
+        <a
+          className="socialIconsLink"
+          href="https://github.com/MrMaciejM"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <img
+            className="socialIconsImg gitHubImg"
+            src="https://img.icons8.com/windows/96/null/github.png"
+            alt="GitHub icon"
+          />
+        </a>
+      </div>
     </section>
   );
 }
-
+// <img src="https://img.icons8.com/windows/96/null/github.png"/>
 export default Contact;
