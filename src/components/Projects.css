@@ -108,6 +108,10 @@ a {
   background-color: #60c48a;
   color: white;
 }
+.jest {
+  background-color: #ebebeb;
+  color: #d10202;
+}
 
 .projectLinksBottom {
   display: grid;

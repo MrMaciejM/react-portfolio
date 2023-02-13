@@ -91,42 +91,29 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* Project 3 - pwd generator */}
+          {/* Project 3 - team generator */}
           <div className="projectsWrapperDiv">
-            <a
-              target={"_blank"}
-              rel={"noreferrer"}
-              href="https://github.com/MrMaciejM/password-generator"
-            >
+            <a target={"_blank"} rel={"noreferrer"} href="#_blank">
               <img
-                src={require("../assets/images/pwd-generator.png")}
-                alt={"password generator app"}
+                src={require("../assets/images/team-generator-app.png")}
+                alt={"Node.js team generator project"}
               />
             </a>
             <p>
-              Password generator app that generates a password based on various
-              user inputs.
+              A Node.js and JavaScript team generator app that was built to get
+              inputs from the user in the terminal, then use that to build a
+              HTML file with the team.
             </p>
             <div className="techDiv">
               <span className="tech techHtml">HTML5</span>
               <span className=" tech techCss">CSS3</span>
               <span className=" tech techJS">JS</span>
+              <span className=" tech nodejs">Node.js</span>
+              <span className=" tech jest">jest</span>
             </div>
             <div className="projectLinksBottom">
-              <a
-                target={"_blank"}
-                rel="noreferrer"
-                href="https://mrmaciejm.github.io/password-generator/"
-              >
-                Site
-              </a>
-              <a
-                target={"_blank"}
-                rel="noreferrer"
-                href="https://github.com/MrMaciejM/password-generator"
-              >
-                GitHub
-              </a>
+              <a href="#_blank">Site</a>
+              <a href="#_blank">GitHub</a>
             </div>
           </div>
           {/* End of Project 3*/}
@@ -215,23 +202,40 @@ function Projects() {
           {/* End of Project 5*/}
           {/* Project 6*/}
           <div className="projectsWrapperDiv">
-            <a target={"_blank"} rel={"noreferrer"} href="#_blank">
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              href="https://github.com/MrMaciejM/password-generator"
+            >
               <img
-                src={require("../assets/images/windows-wait.png")}
-                alt={"Node.js team generator project"}
+                src={require("../assets/images/pwd-generator.png")}
+                alt={"password generator app"}
               />
             </a>
             <p>
-              <strong>Coming soon</strong>: Node.js team generator project.
+              Password generator app that generates a password based on various
+              user inputs.
             </p>
             <div className="techDiv">
               <span className="tech techHtml">HTML5</span>
               <span className=" tech techCss">CSS3</span>
-              <span className=" tech nodejs">Node.js</span>
+              <span className=" tech techJS">JS</span>
             </div>
             <div className="projectLinksBottom">
-              <a href="#_blank">Site</a>
-              <a href="#_blank">GitHub</a>
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://mrmaciejm.github.io/password-generator/"
+              >
+                Site
+              </a>
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://github.com/MrMaciejM/password-generator"
+              >
+                GitHub
+              </a>
             </div>
           </div>
           {/* End of Project 6*/}
