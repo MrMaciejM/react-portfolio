@@ -72,9 +72,10 @@ function Contact() {
         {/* Resume/CV */}
         <a
           className="socialIconsLink cvLink"
-          href="../assets/Maciej_Matulewicz_CV.pdf"
+          href="Maciej_Matulewicz_CV.pdf"
           target={"_blank"}
           rel="noreferrer"
+          download={"Maciej_Matulewicz_CV"}
         >
           <img
             className="socialIconsImg cvImg"
