@@ -58,16 +58,20 @@
   form {
     margin: 0 6rem !important;
   }
-}
-
-@media screen and (min-width: 750px) {
   /* PROJECTS */
-
   .projectWrapper {
     display: grid !important;
     grid-template-columns: 1fr 1fr;
     width: 95% !important;
     column-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  /* CONTACT FORM */
+  form {
+    margin: 0 10rem !important;
+    font-size: 1.2rem !important;
   }
 }
 
