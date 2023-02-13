@@ -71,9 +71,7 @@ button:active {
   filter: invert(1);
   /* inverts color to change github kitty to white/black */
 }
-.cvLinkWrapper {
-  /* margin-top: 1rem !important; */
-}
+
 .cvImg {
   height: 65% !important;
 }
