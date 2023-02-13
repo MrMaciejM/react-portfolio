@@ -45,6 +45,10 @@ button:active {
   color: white;
   background-color: #52e055;
 }
+form p {
+  color: black;
+  margin: 0;
+}
 .msgSentText {
   color: black;
 }

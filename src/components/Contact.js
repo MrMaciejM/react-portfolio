@@ -42,6 +42,8 @@ function Contact() {
           </div>
           <p className="msgSentText">{blankMsg}</p>
         </div>
+        <p>Alternatively:</p>
+        <p>maciej456@icloud.com</p>
       </form>
       <div className="contactIconsContainer">
         <a
