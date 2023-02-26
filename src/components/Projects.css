@@ -1,5 +1,12 @@
 :root {
-  --links: #52e055;
+  --projectLinkHover: #74aafc;
+  --mainGreen: #09e69a;
+  --mainBlue: #777;
+  --heading: #fff;
+  --blurEffect: #568eff;
+  --blurEffectResting: #0f54bd;
+  --btnBackground: #2f74ff;
+  --btnColor: #fff;
 }
 
 .divider {
@@ -16,12 +23,13 @@ a {
   padding: 0 !important;
 }
 .projectsWrapperDiv a:hover {
-  color: white;
-  background-color: #328433;
+  background-color: var(--projectLinkHover);
 }
-
+h2 {
+  color: var(--heading) !important;
+}
 h4 {
-  color: white;
+  color: var(--heading);
   text-align: center;
   margin-top: 1.1rem;
 }
@@ -130,8 +138,8 @@ h4 {
   font-weight: 500;
 }
 .projectLinksBottom a {
-  color: black;
-  background-color: #54fc57;
+  color: var(--btnColor);
+  background-color: var(--btnBackground);
   border-radius: 5px;
   padding: 0.3rem 5rem !important;
   margin-top: 1.2rem !important;
@@ -146,26 +154,49 @@ h4 {
 @keyframes myAnim {
   /* offset-x | offset-y */
   0% {
-    box-shadow: 0px 0px 10px 5px #2a2a2a;
+    box-shadow: 0px 0px 10px 5px var(--blurEffectResting);
     /* 028b3d */
   }
   25% {
-    box-shadow: 0px 0px 10px 5px #2a2a2a;
+    box-shadow: 0px 0px 10px 5px var(--blurEffectResting);
     /* 028b3d */
   }
   50% {
-    box-shadow: 0px 0px 10px 5px #09e96a;
+    box-shadow: 0px 0px 10px 5px var(--blurEffect);
   }
   75% {
-    box-shadow: 0px 0px 10px 5px #2a2a2a;
+    box-shadow: 0px 0px 10px 5px var(--blurEffectResting);
     /* 028b3d */
   }
   100% {
-    box-shadow: 0px 0px 10px 5px #2a2a2a;
+    box-shadow: 0px 0px 10px 5px var(--blurEffectResting);
   }
 }
 
+.projectsWrapperDiv:hover {
+  box-shadow: 0px 0px 10px 5px var(--blurEffect) !important;
+  transition: all 2.5s !important;
+}
+.project1Div,
+.project2Div,
+.project3Div,
+.project4Div,
+.project5Div,
+.project6Div {
+  transition: all 2.5s !important;
+  animation: fade-in 1.4s ease-in;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* FADE-IN EFFECT AT THE LOAD OF THE PAGE */
+/* 
 .project1Div,
 .project2Div,
 .project3Div,
@@ -196,7 +227,6 @@ h4 {
 }
 
 @keyframes fade-in {
-  /*  */
   0% {
     opacity: 0;
   }
@@ -261,3 +291,4 @@ h4 {
     opacity: 1;
   }
 }
+*/

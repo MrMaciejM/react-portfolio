@@ -14,6 +14,7 @@ import "./components/About.css";
 
 import Contact from "./components/Contact";
 import "./components/Contact.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

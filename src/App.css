@@ -6,8 +6,16 @@
 }
 /* COLORS */
 :root {
-  --background: #252525;
-  --links: #52e055;
+  --background: linear-gradient(
+    to bottom,
+    #000307,
+    #061a2c,
+    #002a51,
+    #003a77,
+    #02499e
+  );
+  /* --background: #252525; */
+  --links: #ffffff;
   --white: #fff;
   /* 
   Green styles
@@ -23,6 +31,7 @@ a {
   margin: 0 0.1rem;
   border-radius: 11px;
   transition: all 0.5s;
+  font-weight: 600;
 }
 p {
   color: var(--white);
@@ -59,5 +68,6 @@ h2 {
 /* *********** */
 body {
   font-family: "Mukta", sans-serif;
-  background-color: var(--background);
+  background: var(--background);
+  background-attachment: fixed;
 }

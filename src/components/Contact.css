@@ -1,7 +1,7 @@
 form {
   display: grid;
   color: black;
-  background-color: #52e055;
+  background-color: #2e73ff;
   margin: 0 1rem;
   padding: 0.5rem 0;
   border-radius: 11px;
@@ -16,6 +16,7 @@ form div {
 }
 label,
 button {
+  color: #fff;
   font-weight: 500;
 }
 form input {
@@ -36,21 +37,21 @@ form div textarea {
 }
 button {
   color: white;
-  background-color: #00460f;
+  background-color: #003fbd;
   padding: 0.5rem 1rem;
   border-radius: 15px;
   border: none;
 }
 button:active {
-  color: white;
-  background-color: #52e055;
+  color: #003fbd;
+  background-color: #fff;
 }
 form p {
-  color: black;
+  color: #fff;
   margin: 0;
 }
 .msgSentText {
-  color: black;
+  color: #fff;
 }
 .contactIconsContainer {
   display: flex;

@@ -131,39 +131,40 @@ function Projects() {
               <a
                 target={"_blank"}
                 rel={"noreferrer"}
-                href="https://github.com/MrMaciejM/readify"
+                href="https://github.com/MrMaciejM/GlobeTrotter"
               >
                 <img
-                  src={require("../assets/images/readify-image.png")}
+                  src={require("../assets/images/GlobeTrotter.png")}
                   alt={"password generator app"}
                 />
               </a>
-              <h4>Readify</h4>
+              <h4>GlobeTrotter</h4>
               <p>
-                An API team project that was built with collaborative effort. I
-                was responsible for implementing HTML template, Bootstrap, CSS,
-                the carousel effect and linking that to JavaScript/jQuery.
+                A React library team project that has been created through
+                collaboration and was presented at the final project day of the
+                edX Front-End bootcamp.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
                 <span className=" tech techCss">CSS3</span>
                 <span className=" tech techJS">JS</span>
-                <span className=" tech techJquery">jQuery</span>
+                <span className=" tech techCss">React</span>
+                <span className=" tech techJquery">ChakraUI</span>
                 <span className=" tech techApi">API</span>
-                <span className=" tech bstrap">Bootstrap</span>
+                <span className=" tech bstrap">GitHub Kanban</span>
               </div>
               <div className="projectLinksBottom">
                 <a
                   target={"_blank"}
                   rel="noreferrer"
-                  href="https://mrmaciejm.github.io/readify/"
+                  href="https://globetrotterreact.netlify.app/"
                 >
                   Site
                 </a>
                 <a
                   target={"_blank"}
                   rel="noreferrer"
-                  href="https://github.com/MrMaciejM/readify"
+                  href="https://github.com/MrMaciejM/GlobeTrotter"
                 >
                   GitHub
                 </a>

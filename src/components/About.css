@@ -1,3 +1,6 @@
+.aboutSection {
+  padding-bottom: 2rem;
+}
 h2 {
   margin-bottom: 2rem;
 }
@@ -9,15 +12,15 @@ h2 {
   background-color: #1a1a1a;
 }
 .aboutContainer p {
-  margin: 0.5rem 2rem;
+  margin: 0.5rem 10rem;
 }
 .smallDivider {
   height: 2px;
-  background-color: #52e055;
+  background-color: #fff;
   margin: 1rem 1rem;
 }
 .outsideWorkText {
   /*  */
   text-decoration: underline;
-  text-decoration-color: #52e055;
+  text-decoration-color: #568eff;
 }

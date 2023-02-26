@@ -5,7 +5,8 @@
   margin-bottom: 6rem;
 }
 .introSection h1 span {
-  color: #52e055;
+  /* color: #52e055; */
+  color: #5b9af9;
 }
 .underlineSpan {
   text-decoration: underline #52e055;
@@ -43,21 +44,32 @@
 .smallHeadline {
   animation: colorChange 5s infinite;
 }
+/* 
+colors: 
+#5b9af9
+*/
+:root {
+  --lighter1: #5b9af9;
+  --lighter2: #5b9af9;
+  --neutral: #fff;
+  --darker1: #5b9af9;
+  --darker2: #3284fe;
+}
 @keyframes colorChange {
   0% {
-    color: #52e055;
+    color: var(--lighter1);
   }
   25% {
-    color: #7ddf7f;
+    color: var(--lighter1);
   }
   50% {
     color: #fff;
   }
   75% {
-    color: #7ddf7f;
+    color: var(--lighter1);
   }
   100% {
-    color: #52e055;
+    color: var(--lighter1);
   }
 }
 
@@ -66,18 +78,18 @@
 }
 @keyframes colorChangePic {
   0% {
-    box-shadow: 0 0 10px 2px #52e055;
+    box-shadow: 0 0 10px 2px var(--darker2);
   }
   25% {
-    box-shadow: 0 0 10px 2px #7ddf7f;
+    box-shadow: 0 0 10px 2px var(--lighter2);
   }
   50% {
-    box-shadow: 0 0 15px 5px #fff;
+    box-shadow: 0 0 15px 5px var(--neutral);
   }
   75% {
-    box-shadow: 0 0 10px 2px #7ddf7f;
+    box-shadow: 0 0 10px 2px var(--darker1);
   }
   100% {
-    box-shadow: 0 0 10px 2px #52e055;
+    box-shadow: 0 0 10px 2px var(--darker2);
   }
 }
