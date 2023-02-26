@@ -10,42 +10,45 @@ function Projects() {
       <div className="projectsContainer">
         <div className="projectWrapper">
           {/* Project 1 */}
-          <div className="project1Div">
+          <div className="project4Div">
             <div className="projectsWrapperDiv">
               <a
                 target={"_blank"}
                 rel={"noreferrer"}
-                href="https://github.com/MrMaciejM/daily-planner-app"
+                href="https://github.com/MrMaciejM/GlobeTrotter"
               >
                 <img
-                  src={require("../assets/images/daily-planner.png")}
-                  alt={"daily planner app"}
+                  src={require("../assets/images/GlobeTrotter.png")}
+                  alt={"password generator app"}
                 />
               </a>
-              <h4>Work Day Scheduler</h4>
+              <h4>GlobeTrotter</h4>
               <p>
-                Daily scheduler app built to help keep track of tasks and show
-                color-coded current, past and future time.
+                A React library team project that has been created through
+                collaboration and was presented at the final project day of the
+                edX Front-End bootcamp.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
                 <span className=" tech techCss">CSS3</span>
-                <span className=" tech techJquery">jQuery</span>
                 <span className=" tech techJS">JS</span>
-                <span className=" tech techMoment">Moment.js</span>
+                <span className=" tech techCss">React</span>
+                <span className=" tech techJquery">ChakraUI</span>
+                <span className=" tech techApi">API</span>
+                <span className=" tech bstrap">GitHub Kanban</span>
               </div>
               <div className="projectLinksBottom">
                 <a
                   target={"_blank"}
                   rel="noreferrer"
-                  href="https://mrmaciejm.github.io/daily-planner-app/"
+                  href="https://globetrotterreact.netlify.app/"
                 >
                   Site
                 </a>
                 <a
                   target={"_blank"}
                   rel="noreferrer"
-                  href="https://github.com/MrMaciejM/daily-planner-app"
+                  href="https://github.com/MrMaciejM/GlobeTrotter"
                 >
                   GitHub
                 </a>
@@ -126,45 +129,42 @@ function Projects() {
           </div>
           {/* End of Project 3*/}
           {/* Project 4*/}
-          <div className="project4Div">
+          <div className="project1Div">
             <div className="projectsWrapperDiv">
               <a
                 target={"_blank"}
                 rel={"noreferrer"}
-                href="https://github.com/MrMaciejM/GlobeTrotter"
+                href="https://github.com/MrMaciejM/daily-planner-app"
               >
                 <img
-                  src={require("../assets/images/GlobeTrotter.png")}
-                  alt={"password generator app"}
+                  src={require("../assets/images/daily-planner.png")}
+                  alt={"daily planner app"}
                 />
               </a>
-              <h4>GlobeTrotter</h4>
+              <h4>Work Day Scheduler</h4>
               <p>
-                A React library team project that has been created through
-                collaboration and was presented at the final project day of the
-                edX Front-End bootcamp.
+                Daily scheduler app built to help keep track of tasks and show
+                color-coded current, past and future time.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
                 <span className=" tech techCss">CSS3</span>
+                <span className=" tech techJquery">jQuery</span>
                 <span className=" tech techJS">JS</span>
-                <span className=" tech techCss">React</span>
-                <span className=" tech techJquery">ChakraUI</span>
-                <span className=" tech techApi">API</span>
-                <span className=" tech bstrap">GitHub Kanban</span>
+                <span className=" tech techMoment">Moment.js</span>
               </div>
               <div className="projectLinksBottom">
                 <a
                   target={"_blank"}
                   rel="noreferrer"
-                  href="https://globetrotterreact.netlify.app/"
+                  href="https://mrmaciejm.github.io/daily-planner-app/"
                 >
                   Site
                 </a>
                 <a
                   target={"_blank"}
                   rel="noreferrer"
-                  href="https://github.com/MrMaciejM/GlobeTrotter"
+                  href="https://github.com/MrMaciejM/daily-planner-app"
                 >
                   GitHub
                 </a>
