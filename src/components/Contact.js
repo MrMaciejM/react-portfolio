@@ -10,7 +10,7 @@ function Contact() {
       <h2>Contact</h2>
       <div className="divider"></div>
       <form
-        action="https://public.herotofu.com/v1/"
+        action="https://public.herotofu.com/v1/6d0967c0-b6a7-11ed-aa6e-d1d3c574abee"
         method="post"
         onSubmit={(e) => {
           e.preventDefault();
