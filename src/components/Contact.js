@@ -13,8 +13,8 @@ function Contact() {
         action="https://public.herotofu.com/v1/6d0967c0-b6a7-11ed-aa6e-d1d3c574abee"
         method="post"
         onSubmit={(e) => {
-          e.preventDefault();
-          let myMsg = "Your message has been sent!";
+          //e.preventDefault();
+          const myMsg = "Your message has been sent!";
           return updatedMsg(myMsg);
         }}
       >
