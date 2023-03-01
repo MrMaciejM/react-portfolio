@@ -19,14 +19,18 @@ import Footer from "./components/Footer";
 function App() {
   return (
     //
-    <div>
+    <div className="divMain">
       <Header></Header>
-      <Routes>
+      <Intro></Intro>
+      <Projects></Projects>
+      <About></About>
+      <Contact></Contact>
+      {/* <Routes>
         <Route path="/react-portfolio" element={<Intro />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
+      </Routes> */}
       <Footer></Footer>
     </div>
   );

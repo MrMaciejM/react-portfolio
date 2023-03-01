@@ -10,7 +10,7 @@ function Projects() {
       <div className="projectsContainer">
         <div className="projectWrapper">
           {/* Project 1 */}
-          <div className="project4Div">
+          <div className="project1Div">
             <div className="projectsWrapperDiv">
               <a
                 target={"_blank"}
@@ -18,15 +18,15 @@ function Projects() {
                 href="https://github.com/MrMaciejM/GlobeTrotter"
               >
                 <img
-                  src={require("../assets/images/GlobeTrotter.png")}
+                  src={require("../assets/images/globeTrotter-highRes.png")}
                   alt={"password generator app"}
                 />
               </a>
               <h4>GlobeTrotter</h4>
               <p>
-                A React library team project that has been created through
-                collaboration and was presented at the final project day of the
-                edX Front-End bootcamp.
+                A React team project built with various tech and was presented
+                at the final project day of the <span>edX</span> Front-End
+                bootcamp.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
@@ -111,8 +111,8 @@ function Projects() {
               </a>
               <h4>Team Generator</h4>
               <p>
-                A terminal app that was built with Node.js and JS to get user
-                input and render a team based on said input.
+                A terminal app that was built with Node.js to collect user input
+                and render an HTML file with the team based on collected inputs.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
@@ -129,7 +129,7 @@ function Projects() {
           </div>
           {/* End of Project 3*/}
           {/* Project 4*/}
-          <div className="project1Div">
+          <div className="project4Div">
             <div className="projectsWrapperDiv">
               <a
                 target={"_blank"}

@@ -3,12 +3,62 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <header>
-      <nav>
-        <NavLink to="/react-portfolio">Home</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-      </nav>
+      <div className="contactIconsContainer">
+        <div>
+          <a
+            className="socialIconsLink"
+            href="https://www.linkedin.com/in/maciejmatulewicz/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <img
+              className="socialIconsImg linkedInImg"
+              src="https://img.icons8.com/color/96/null/linkedin-circled--v1.png"
+              alt="linked in icon"
+            />
+          </a>
+        </div>
+        {/* github link */}
+        <div>
+          <a
+            className="socialIconsLink"
+            href="https://github.com/MrMaciejM"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <img
+              className="socialIconsImg gitHubImg"
+              src="https://img.icons8.com/windows/96/null/github.png"
+              alt="GitHub icon"
+            />
+          </a>
+        </div>
+        {/* Resume/CV */}
+        <div className="cvIconContainer">
+          <a
+            className="socialIconsLink cvLink"
+            href="Maciej_Matulewicz_CV.pdf"
+            target={"_blank"}
+            rel="noreferrer"
+            download={"Maciej_Matulewicz_CV"}
+          >
+            <img
+              className="socialIconsImg cvImg"
+              src={require("../assets/images/cvIcon.png")}
+              alt="CV icon"
+            />
+            <p>CV</p>
+          </a>
+        </div>
+      </div>
+      <div className="navContainer">
+        <nav>
+          <NavLink to="/react-portfolio">Home</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
+        </nav>
+      </div>
     </header>
   );
 }

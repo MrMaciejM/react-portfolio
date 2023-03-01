@@ -1,31 +1,51 @@
+:root {
+  --introHeading: #fff;
+  --lighter1: #5b9af9;
+  --lighter2: #5b9af9;
+  --neutral: #fff;
+  --darker1: #5b9af9;
+  --darker2: #3284fe;
+}
 .introSection {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 6rem;
-}
-.introSection h1 span {
-  /* color: #52e055; */
-  color: #5b9af9;
-}
-.underlineSpan {
-  text-decoration: underline #52e055;
+  align-items: start;
+  margin-bottom: 20rem;
+  padding-top: 12rem;
+  margin-left: 11rem;
+  column-gap: 15rem;
 }
 
 .introHeading {
-  color: white !important;
+  color: var(--paras);
+  font-weight: 600;
+  font-size: 6rem;
 }
 .introSection p {
-  margin: 0 10%;
-  text-align: center;
+  margin: 0;
   margin-bottom: 1rem;
+  text-align: left;
+  font-size: 1.8rem;
 }
 .profilePic {
-  width: 10rem;
-  height: 10rem;
+  width: 19rem;
+  height: 14rem;
   border-radius: 50%;
+  /* box-shadow: 0 0 10px 2px var(--lighter1); */
   /* box-shadow: 0 0 10px 10px #52e055; */
 }
+.obligatoryIntro {
+  color: var(--h3);
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+.laptopContainer {
+  margin-top: 16rem;
+  margin-left: 11rem;
+}
+.laptopContainer p {
+  font-size: 1.5rem;
+}
+
 /* Animation */
 .introSection {
   animation-name: fadein;
@@ -42,19 +62,13 @@
   }
 }
 .smallHeadline {
-  animation: colorChange 5s infinite;
+  /* animation: colorChange 5s infinite; */
 }
 /* 
 colors: 
 #5b9af9
 */
-:root {
-  --lighter1: #5b9af9;
-  --lighter2: #5b9af9;
-  --neutral: #fff;
-  --darker1: #5b9af9;
-  --darker2: #3284fe;
-}
+
 @keyframes colorChange {
   0% {
     color: var(--lighter1);
@@ -74,7 +88,7 @@ colors:
 }
 
 .profilePic {
-  animation: colorChangePic 5s infinite;
+  /* animation: colorChangePic 5s infinite; */
 }
 @keyframes colorChangePic {
   0% {
