@@ -24,9 +24,8 @@ function Projects() {
               </a>
               <h4>GlobeTrotter</h4>
               <p>
-                A React team project built with various tech and was presented
-                at the final project day of the <span>edX</span> Front-End
-                bootcamp.
+                A React team project built with various tech and presented on
+                the final day of the <span>edX</span> Front-End bootcamp.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
@@ -112,7 +111,8 @@ function Projects() {
               <h4>Team Generator</h4>
               <p>
                 A terminal app that was built with Node.js to collect user input
-                and render an HTML file with the team based on collected inputs.
+                and render an HTML file with the generated team based on
+                collected inputs.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
@@ -187,8 +187,8 @@ function Projects() {
               </a>
               <h4>Product Landing Page</h4>
               <p>
-                My first ever responsive site that I have designed and built
-                using HTML, CSS and JS.
+                My first ever responsive product landing site that I have
+                designed and built using HTML, CSS and JS.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
@@ -230,7 +230,7 @@ function Projects() {
               <h4>Password Generator</h4>
               <p>
                 Password generator app that generates a password based on
-                various user inputs.
+                various user inputs, also has valdiation checks.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>

@@ -21,8 +21,7 @@ function Intro() {
           industry.
         </p>
         <p>
-          My action plan, which I <span>relentlessly</span> pursue, is to
-          continue
+          My action plan, which I <span>currently</span> pursue, is to continue
         </p>
         <p>to learn and expand my current skills and knowledge.</p>
         <p>Long term goal is to become a Full-Stack engineer.</p>
