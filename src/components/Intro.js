@@ -15,15 +15,20 @@ function Intro() {
       </div>
       <div className="laptopContainer">
         <h3 className="obligatoryIntro">Short about</h3>
-        <p>I am an IT professional turned Front-End Developer.</p>
+        <p>An IT professional turned Front-End Developer.</p>
+        <p>
+          I am looking for my <span>first chance</span> to break into the
+          industry.
+        </p>
         <p>
           My action plan, which I <span>relentlessly</span> pursue, is to
           continue
         </p>
-        <p>to learn and expand on my current skills and knowledge.</p>
+        <p>to learn and expand my current skills and knowledge.</p>
         <p>Long term goal is to become a Full-Stack engineer.</p>
         <p></p>
       </div>
+      <div className="sphereGuide"></div>
     </section>
   );
 }

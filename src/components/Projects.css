@@ -1,5 +1,5 @@
 :root {
-  --projectLinkHover: #74aafc;
+  --projectLinkHover: #6b30ff;
   --mainGreen: #09e69a;
   --mainBlue: #777;
   --heading: #fff;
@@ -8,6 +8,18 @@
   --btnBackground: #966dff;
   --btnColor: #eee;
   --cardBackground: #271a4a;
+}
+
+.projectLinksBottom a {
+  color: var(--btnColor);
+  background-color: var(--btnBackground);
+  border-radius: 5px;
+  padding: 0.3rem 5rem;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+}
+.projectLinksBottom a:hover {
+  background-color: var(--projectLinkHover);
 }
 
 .projectsSection {
@@ -91,7 +103,7 @@ h4 {
 }
 
 .techDiv span {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 /* TECH STACKS ELEMENTS */
@@ -153,16 +165,9 @@ h4 {
   text-align: center;
   font-weight: 500;
 }
-.projectLinksBottom a {
-  color: var(--btnColor);
-  background-color: var(--btnBackground);
-  border-radius: 5px;
-  padding: 0.3rem 5rem !important;
-  margin-top: 1.2rem !important;
-}
 
 .project3Div div {
-  padding-bottom: 1.15%;
+  /* padding-bottom: 1.15%; */
 }
 
 /* *************** */

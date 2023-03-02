@@ -54,11 +54,11 @@
 @keyframes fadein {
   from {
     opacity: 0;
-    padding-right: 20%;
+    padding-top: 30%;
   }
   to {
     opacity: 1;
-    padding-right: 0;
+    padding-bottom: 0;
   }
 }
 .smallHeadline {
@@ -105,5 +105,39 @@ colors:
   }
   100% {
     box-shadow: 0 0 10px 2px var(--darker2);
+  }
+}
+/* Sphere guide animation */
+
+.sphereGuide {
+  position: absolute;
+  left: 24%;
+  bottom: -20%;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: solid 2px var(--h3);
+  box-shadow: 0 0 25px 2px var(--h3);
+  background-color: var(--paras);
+  opacity: 0;
+}
+.sphereGuide {
+  animation: 7s sphere;
+  animation-delay: 2s;
+}
+@keyframes sphere {
+  0% {
+    bottom: -20%;
+    opacity: 1;
+  }
+
+  50% {
+    bottom: 10%;
+    opacity: 1;
+  }
+
+  100% {
+    bottom: -20%;
+    opacity: 0;
   }
 }

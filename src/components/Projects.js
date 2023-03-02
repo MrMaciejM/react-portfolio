@@ -188,8 +188,7 @@ function Projects() {
               <h4>Product Landing Page</h4>
               <p>
                 My first ever responsive site that I have designed and built
-                using HTML, CSS and a pinch of JavaScript, with only my
-                self-taught knowledge prior to the bootcamp.
+                using HTML, CSS and JS.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
