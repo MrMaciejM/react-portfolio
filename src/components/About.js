@@ -3,7 +3,7 @@ import "./Projects.css";
 function About() {
   return (
     <section className="aboutSection">
-      <h2>About</h2>
+      <h2 id="aboutId">About</h2>
       {/* <div className="divider"></div> */}
       <div className="aboutContainer">
         <div>

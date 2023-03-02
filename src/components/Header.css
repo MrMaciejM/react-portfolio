@@ -67,3 +67,8 @@ header nav a {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+/* hides home element, without disrupting alignment of other elements */
+header nav a:first-of-type {
+  visibility: hidden !important;
+}

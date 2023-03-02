@@ -1,5 +1,6 @@
 import "./Header.css";
 import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 function Header() {
   return (
     <header>
@@ -54,9 +55,9 @@ function Header() {
       <div className="navContainer">
         <nav>
           <NavLink to="/react-portfolio">Home</NavLink>
-          <NavLink to="/projects">Projects</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <Link to="#projectsId">Projects</Link>
+          <Link to="#aboutId">About</Link>
+          <Link to="#contactId">Contact</Link>
         </nav>
       </div>
     </header>
