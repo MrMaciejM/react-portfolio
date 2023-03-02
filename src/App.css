@@ -20,10 +20,11 @@
   /* --background: #252525; */
   --linksHover: #966dff;
   --white: #02f2ff;
-  --linksAndParagraphs: #ccc;
+  --linksAndParagraphs: #ddd;
   --span: #966dff;
-  --paras: #ccc;
+  --paras: #ddd;
   --h3: #966dff;
+  --sectionHeading: #ddd;
   /* #aa88fd */
   /* 
   Green styles
@@ -72,9 +73,6 @@ header nav a {
   transition: all 0.5s;
 }
 
-h2 {
-  font-size: 3rem;
-}
 /* IMAGE SIZE */
 img {
   height: 300px !important;
@@ -83,7 +81,8 @@ img {
 /* Section Headings */
 h2 {
   text-align: center;
-  color: var(--links);
+  color: var(--sectionHeading);
+  font-size: 3rem;
 }
 
 /* *********** */

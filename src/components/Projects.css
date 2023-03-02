@@ -2,7 +2,7 @@
   --projectLinkHover: #6b30ff;
   --mainGreen: #09e69a;
   --mainBlue: #777;
-  --heading: #fff;
+  --heading: #ddd;
   --blurEffect: #568eff;
   --blurEffectResting: #0f54bd;
   --btnBackground: #966dff;
@@ -26,6 +26,7 @@
   display: grid !important;
   grid-template-columns: 1fr 1fr 6fr;
   margin-left: 10rem;
+  margin-bottom: 20rem;
 }
 
 .divider {
@@ -36,11 +37,7 @@
   border-radius: 5px;
 }
 
-.projectsWrapperDiv a:hover {
-  background-color: var(--cardBackground);
-}
 h2 {
-  color: var(--heading) !important;
   align-self: center;
 }
 h4 {

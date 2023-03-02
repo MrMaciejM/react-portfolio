@@ -68,82 +68,322 @@
 }
 
 @media screen and (min-width: 900px) {
+  header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .contactIconsContainer {
+    margin-right: 0rem !important;
+  }
+  header nav {
+    margin-top: 2rem !important;
+  }
+  header nav a {
+    margin: 0 1rem !important;
+  }
+  /* INTRO */
+  .introSection {
+    display: flex !important;
+    flex-direction: column !important;
+    column-gap: 2rem !important;
+  }
+  .introHeading {
+    font-size: 3rem !important;
+  }
+  .introSection p {
+    font-size: 1.2rem !important;
+  }
+
+  .profilePic {
+    width: 15rem !important;
+    height: 14rem !important;
+  }
+
+  .laptopContainer {
+    margin-left: 2rem !important;
+  }
+  /* PROJECTS  */
+
+  .projectsSection {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    margin-bottom: 20rem !important;
+  }
+  .projectsSection h2 {
+    margin-bottom: 6rem !important;
+  }
+
+  .projectWrapper {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    width: 45% !important;
+    justify-self: center !important;
+  }
+
+  .divider {
+    display: none !important;
+  }
+
+  .projectsSection p {
+    font-size: 1.1rem !important;
+  }
+
+  .divider {
+    margin-left: 11rem !important;
+  }
   /* CONTACT FORM */
-  form {
-    margin: 0 10rem;
-    font-size: 1.2rem;
+  .contactContainer {
+    margin: 0 8rem !important;
+    margin-bottom: 20rem !important;
   }
 }
 
-@media screen and (min-width: 1000px) {
-  /* PROJECTS */
+@media screen and (min-width: 1100px) {
+  header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .contactIconsContainer {
+    margin-right: 0rem !important;
+  }
+  header nav {
+    margin-top: 2rem !important;
+  }
+  header nav a {
+    margin: 0 1rem !important;
+  }
+  /* INTRO */
+  .introSection {
+    display: flex !important;
+    flex-direction: column !important;
+    column-gap: 2rem !important;
+  }
+  .introHeading {
+    font-size: 3rem !important;
+  }
+  .introSection p {
+    font-size: 1.2rem !important;
+  }
+
+  .profilePic {
+    width: 15rem !important;
+    height: 14rem !important;
+  }
+
+  .laptopContainer {
+    margin-left: 2rem !important;
+  }
+  /* PROJECTS  */
+
+  .projectsSection {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    margin-bottom: 20rem !important;
+  }
+  .projectsSection h2 {
+    margin-bottom: 6rem !important;
+  }
+
   .projectWrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
-    column-gap: 3rem;
-    row-gap: 3rem;
+    grid-template-columns: 1fr !important;
+    width: 45% !important;
+    justify-self: center !important;
   }
-  /* About */
-  .aboutContainer {
-    margin: 0 5rem;
+
+  .divider {
+    display: none !important;
+  }
+
+  .projectsSection p {
+    font-size: 1.1rem !important;
+  }
+
+  .divider {
+    margin-left: 11rem !important;
   }
   /* CONTACT FORM */
-  form {
-    margin: 0 12rem;
+  .contactContainer {
+    margin: 0 8rem !important;
+    margin-bottom: 20rem !important;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /*  */
+  .contactIconsContainer {
+    margin-right: -12rem !important;
+  }
+  header nav {
+    margin-left: 20rem !important;
+  }
+  .introSection {
+    column-gap: 2rem !important;
+  }
+  .introHeading {
+    font-size: 5rem !important;
+  }
+  .laptopContainer {
+    margin-left: 2rem !important;
+  }
+  /* PROJECTS  */
+  .projectsSection p {
+    font-size: 1.1rem !important;
+  }
+
   .projectWrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 85%;
-    column-gap: 6rem;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    width: 60% !important;
+    justify-self: center !important;
+  }
+  .divider {
+    margin-left: 11rem !important;
   }
   /* CONTACT FORM */
-  form {
-    margin: 0 20rem;
+  .contactContainer {
+    margin: 0 8rem !important;
+    margin-bottom: 20rem !important;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  /*  */
-  .projectWrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 88%;
-    column-gap: 10rem;
+  .contactIconsContainer {
+    margin-right: -12rem !important;
   }
-  /* ABOUT */
-  .aboutContainer {
-    margin: 0 14rem;
+  header nav {
+    margin-left: 20rem !important;
+  }
+  .introSection {
+    column-gap: 2rem !important;
+  }
+  .introHeading {
+    font-size: 5rem !important;
+  }
+  .laptopContainer {
+    margin-left: 10rem !important;
+  }
+  /* PROJECTS  */
+  .projectsSection p {
+    font-size: 1.1rem !important;
+  }
+
+  .projectWrapper {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    width: 50% !important;
+    justify-self: center !important;
+  }
+  .divider {
+    margin-left: 11rem !important;
   }
   /* CONTACT FORM */
-  form {
-    margin: 0 24rem;
+  .contactContainer {
+    margin: 0 8rem !important;
+    margin-bottom: 20rem !important;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .contactIconsContainer {
+    margin-right: -4rem !important;
+  }
+  header nav {
+    margin-left: 20rem !important;
+  }
+  .introSection {
+    column-gap: 2rem !important;
+  }
+  .introHeading {
+    font-size: 5rem !important;
+  }
+  .laptopContainer {
+    margin-left: 10rem !important;
+  }
+  /* PROJECTS  */
+  .projectsSection p {
+    font-size: 1.1rem !important;
+  }
+  /* CONTACT FORM */
+  .contactContainer {
+    margin: 0 8rem !important;
+    margin-bottom: 20rem !important;
   }
 }
 
 @media screen and (min-width: 1600px) {
+  .contactIconsContainer {
+    margin-right: 25rem !important;
+  }
+  .introSection {
+    column-gap: 2rem !important;
+  }
+  .introHeading {
+    font-size: 5rem !important;
+  }
+  .laptopContainer {
+    margin-left: 10rem !important;
+  }
+  /* PROJECTS  */
+  .projectsSection p {
+    font-size: 1.1rem !important;
+  }
   /* CONTACT FORM */
-  form {
-    margin: 0 36rem;
-    font-size: 1.2rem;
+  .contactContainer {
+    margin: 0 10rem !important;
+    margin-bottom: 20rem !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .contactIconsContainer {
+    margin-right: 30rem !important;
+  }
+  .introSection {
+    column-gap: 10rem !important;
+  }
+  /* CONTACT FORM */
+  .contactContainer {
+    margin: 0 12rem !important;
+    margin-bottom: 20rem !important;
   }
 }
 
 @media screen and (min-width: 1800px) {
+  .contactIconsContainer {
+    margin-right: 38rem !important;
+  }
+  .introSection {
+    column-gap: 15rem !important;
+  }
+  /* PROJECT CARDS */
+  .projectWrapper {
+    width: 85% !important;
+  }
   /* CONTACT FORM */
-  form {
-    margin: 0 42rem;
+  .contactContainer {
+    margin: 0 18rem !important;
+    margin-bottom: 20rem !important;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .contactIconsContainer {
+    margin-right: 40rem !important;
+  }
+  .introSection {
+    column-gap: 18rem !important;
   }
 }
 
 @media screen and (min-width: 2000px) {
   /*  */
-  .projectWrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
-    column-gap: 12rem;
+  .contactIconsContainer {
+    margin-right: 50rem !important;
   }
 }

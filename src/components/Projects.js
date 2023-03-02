@@ -105,7 +105,7 @@ function Projects() {
             <div className="projectsWrapperDiv">
               <a target={"_blank"} rel={"noreferrer"} href="#_blank">
                 <img
-                  src={require("../assets/images/team-generator-app.png")}
+                  src={require("../assets/images/team-gen-highRes.png")}
                   alt={"Node.js team generator project"}
                 />
               </a>

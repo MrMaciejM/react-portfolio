@@ -1,18 +1,29 @@
 .aboutSection {
   padding-bottom: 2rem;
+  margin-bottom: 20rem;
 }
-h2 {
-  margin-bottom: 2rem;
+.aboutSection h2 {
+  margin-bottom: 6rem;
+  text-align: center;
 }
 .aboutContainer {
   /* border: 2px solid #52e055; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 9px;
   margin: 0 1rem;
   padding: 0.4rem 0;
-  background-color: #1a1a1a;
+  background-color: none;
 }
 .aboutContainer p {
-  margin: 0.5rem 10rem;
+  margin: 0.5rem 1rem;
+}
+.aboutContainer div p {
+  text-align: left;
+}
+.aboutContainer div:nth-child(2) {
+  margin-top: 1rem;
 }
 .smallDivider {
   height: 2px;

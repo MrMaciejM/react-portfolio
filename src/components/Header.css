@@ -24,8 +24,8 @@ header nav {
 
 header nav a {
   color: var(--linksAndParagraphs);
-  padding: 0 0.3rem !important;
-  margin: 0 0.2rem !important;
+  padding: 0 0.3rem;
+  margin: 0 0.2rem;
 }
 
 /* SOCIAL ICONS + CV */

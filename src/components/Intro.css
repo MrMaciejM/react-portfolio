@@ -38,12 +38,16 @@
   text-decoration: underline;
   text-underline-offset: 7px;
 }
+/* this is actually short about container */
 .laptopContainer {
   margin-top: 16rem;
   margin-left: 11rem;
 }
 .laptopContainer p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+}
+.laptopContainer p:first-of-type {
+  margin-top: 2rem;
 }
 
 /* Animation */

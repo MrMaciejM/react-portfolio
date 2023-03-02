@@ -4,40 +4,25 @@ function About() {
   return (
     <section className="aboutSection">
       <h2>About</h2>
-      <div className="divider"></div>
+      {/* <div className="divider"></div> */}
       <div className="aboutContainer">
-        <p>
-          I am an IT professional with over 4.5 years of experience pursuing a
-          career in web development.
-        </p>
-        <p>
-          I have discovered my passion for coding while working on a project,
-          which required me to learn Powershell scripting language to complete
-          it. Then I have stumbled across a person showcasing their web dev
-          project, connecting to various smarthome devices and controlling them
-          with their custom build website.
-        </p>
-        <p>
-          The ability to affect the world with coding has really inspired me to
-          pursue it full-time. As a result, I have learned many skills, and
-          built several projects showcasing those skills, which I can now use to
-          help someone in their business endeavours.
-        </p>
-
-        <div className="smallDivider"></div>
-        <p className="outsideWorkText">Outside of work</p>
-        <p>Outside of work I like to do various things: </p>
-        <p>
-          Social: Hanging out with friends and family, playing pool, bowling,
-          cinema, water parks.
-        </p>
-        <p>
-          Sports: Football, football training wth my team, tennis, table tennis,
-          badminton, squash, volleyball, jogging.
-        </p>
-        <p>
-          Other: coding, tinkering with tech, light gaming, learning new things.
-        </p>
+        <div>
+          <p>I am an IT professional with over 4.5 years of experience.</p>
+          <p>
+            My journey began as an <span>IT apprentice</span> in December 2016,
+          </p>
+          <p>where I have studied and passed numerous exams while</p>
+          <p>working for a risk modelling firm in the insurance market.</p>
+          <p>Once I completed my apprenticeship successfully, I was</p>
+          <p>hired by the same firm full-time and the rest is history.</p>
+        </div>
+        <div>
+          <p>
+            <span>Outside of work</span>..... I am known as one of the best
+            foosball{" "}
+          </p>
+          <p>players in town!</p>
+        </div>
       </div>
     </section>
   );

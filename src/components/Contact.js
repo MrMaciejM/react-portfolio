@@ -1,12 +1,10 @@
 import { useState } from "react";
-import "./Projects.css";
-import "./Contact.css";
 
 function Contact() {
   //6618abb0-a964-11ed-a31e-753411848f80
   const [blankMsg, updatedMsg] = useState();
   return (
-    <section>
+    <section className="contactContainer">
       <h2>Contact</h2>
       <div className="divider"></div>
       <form
@@ -45,48 +43,6 @@ function Contact() {
         <p>Alternatively:</p>
         <p>maciej456@icloud.com</p>
       </form>
-      <div className="contactIconsContainer">
-        <a
-          className="socialIconsLink"
-          href="https://www.linkedin.com/in/maciejmatulewicz/"
-          target={"_blank"}
-          rel="noreferrer"
-        >
-          <img
-            className="socialIconsImg"
-            src="https://img.icons8.com/color/96/null/linkedin-circled--v1.png"
-            alt="linked in icon"
-          />
-        </a>
-        {/* github link */}
-        <a
-          className="socialIconsLink"
-          href="https://github.com/MrMaciejM"
-          target={"_blank"}
-          rel="noreferrer"
-        >
-          <img
-            className="socialIconsImg gitHubImg"
-            src="https://img.icons8.com/windows/96/null/github.png"
-            alt="GitHub icon"
-          />
-        </a>
-        {/* Resume/CV */}
-        <a
-          className="socialIconsLink cvLink"
-          href="Maciej_Matulewicz_CV.pdf"
-          target={"_blank"}
-          rel="noreferrer"
-          download={"Maciej_Matulewicz_CV"}
-        >
-          <img
-            className="socialIconsImg cvImg"
-            src="https://img.icons8.com/color/96/null/pdf.png"
-            alt="CV icon"
-          />
-          <p>CV</p>
-        </a>
-      </div>
     </section>
   );
 }

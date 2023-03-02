@@ -1,30 +1,58 @@
+:root {
+  --formBackground: radial-gradient(
+    circle at 85% 15%,
+    #ddd 1px,
+    #765ab8 3%,
+    #271f39 60%,
+    #765ab8 100%
+  );
+  /* 
+  #765ab8
+  #271f39
+  (60deg, #271f39 10%, #765ab8, #271f39 90%)
+  */
+  --submitBtnColor: #ddd;
+  --submitBtnBackground: #3c2c63;
+}
+.contactContainer {
+  margin-bottom: 20rem;
+}
+
+.contactContainer h2 {
+  margin-bottom: 6rem;
+}
 form {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   color: black;
-  background-color: #2e73ff;
-  margin: 0 1rem;
+  background: var(--formBackground);
   padding: 0.5rem 0;
   border-radius: 11px;
   text-align: center;
   font-size: 18px;
+  border: solid 1px var(--h3);
 }
 form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 1.2rem !important;
 }
 .formElementsWrapper {
-  margin: 0 1.6rem;
+  margin: 0 1rem;
 }
 label,
 button {
-  color: #fff;
+  color: var(--paras);
   font-weight: 500;
 }
 form input {
   /* margin: 0 1rem; */
-  width: 100%;
+  width: 15rem;
   border-radius: 11px;
   outline: none;
-  border: 2px solid #777;
+  border: 2px solid var(--h3);
+  background-color: var(--paras);
 }
 .textAreaDiv {
   display: flex;
@@ -32,19 +60,24 @@ form input {
   /* margin: 0 1rem; */
 }
 form div textarea {
+  font-size: 1rem;
+  width: 22rem;
+  height: 10rem;
   border-radius: 5px;
   padding: 0 0.2rem;
+  background-color: var(--paras);
+  border: 2px solid var(--h3);
 }
 button {
-  color: white;
-  background-color: #003fbd;
+  color: #eee;
+  background-color: var(--h3);
   padding: 0.5rem 1rem;
   border-radius: 15px;
   border: none;
 }
 button:active {
-  color: #003fbd;
-  background-color: #fff;
+  color: var(--submitBtnColor);
+  background-color: var(--submitBtnBackground);
 }
 form p {
   color: #fff;
