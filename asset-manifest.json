@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.43a0f828.css",
-    "main.js": "/react-portfolio/static/js/main.e3ba816c.js",
+    "main.js": "/react-portfolio/static/js/main.8f2ab7a8.js",
     "static/media/globeTrotter-highRes.png": "/react-portfolio/static/media/globeTrotter-highRes.3a4165a52e113f7e29ac.png",
     "static/media/landing-page-v1.png": "/react-portfolio/static/media/landing-page-v1.9356a051997f28ae7362.png",
     "static/media/team-gen-highRes.png": "/react-portfolio/static/media/team-gen-highRes.bf481b965947e8d9fb71.png",
@@ -11,10 +11,10 @@
     "static/media/pwd-generator.png": "/react-portfolio/static/media/pwd-generator.86a20794f9ed98845d15.png",
     "index.html": "/react-portfolio/index.html",
     "main.43a0f828.css.map": "/react-portfolio/static/css/main.43a0f828.css.map",
-    "main.e3ba816c.js.map": "/react-portfolio/static/js/main.e3ba816c.js.map"
+    "main.8f2ab7a8.js.map": "/react-portfolio/static/js/main.8f2ab7a8.js.map"
   },
   "entrypoints": [
     "static/css/main.43a0f828.css",
-    "static/js/main.e3ba816c.js"
+    "static/js/main.8f2ab7a8.js"
   ]
 }
