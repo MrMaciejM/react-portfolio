@@ -38,7 +38,7 @@ function Header() {
         <div className="cvIconContainer">
           <a
             className="socialIconsLink cvLink"
-            href="Maciej_Matulewicz_CV.pdf"
+            href="https://drive.google.com/file/d/11hbPearHI6TuSJc2wEBKEER1jlyA64wW/view?usp=sharing"
             target={"_blank"}
             rel="noreferrer"
             download={"Maciej_Matulewicz_CV"}
