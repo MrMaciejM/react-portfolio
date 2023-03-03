@@ -9,7 +9,7 @@ function Intro() {
         <p className="smallHeadline">A Front-End developer.</p>
         <img
           className={"profilePic"}
-          src={require("../assets/images/profile-pic.png")}
+          src={require("../assets/images/profile_pic_bootcamp.png")}
           alt={"Maciej"}
         />
       </div>
