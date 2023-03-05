@@ -48,7 +48,7 @@ function Header() {
               src={require("../assets/images/cvIcon.png")}
               alt="CV icon"
             />
-            <p>CV</p>
+            <p id="cv-p-element">CV</p>
           </a>
         </div>
       </div>
@@ -56,7 +56,7 @@ function Header() {
         <nav>
           {/* <NavLink to="/react-portfolio">Home</NavLink> */}
           <Link to="#projectsId">Projects</Link>
-          <Link to="#aboutId">About</Link>
+          <Link to="#aboutId">Skills</Link>
           <Link to="#contactId">Contact</Link>
         </nav>
       </div>

@@ -14,9 +14,6 @@
   --submitBtnColor: #ddd;
   --submitBtnBackground: #3c2c63;
 }
-.contactContainer {
-  margin-bottom: 20rem;
-}
 
 .contactContainer h2 {
   margin-bottom: 6rem;
@@ -25,12 +22,12 @@ form {
   display: flex;
   flex-direction: column;
   color: black;
-  background: var(--formBackground);
+  /* background: var(--formBackground); */
   padding: 0.5rem 0;
   border-radius: 11px;
   text-align: center;
   font-size: 18px;
-  border: solid 1px var(--h3);
+  /* border: solid 1px var(--h3); */
 }
 form div {
   display: flex;

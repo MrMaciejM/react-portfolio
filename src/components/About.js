@@ -12,12 +12,14 @@ function About() {
             src={require("../assets/images/html-icon.png")}
             alt="html icon"
           />
+          <p>HTML5</p>
         </div>
         <div className="skillsImgWrapper">
           <img
             src={require("../assets/images/icons8-css3-96.png")}
             alt="css icon"
           />
+          <p>CSS3</p>
         </div>
         <div className="skillsImgWrapper">
           <img
@@ -25,6 +27,7 @@ function About() {
             src={require("../assets/images/jsIcon.png")}
             alt="html icon"
           />
+          <p>JavaScript</p>
         </div>
         <div className="skillsImgWrapper">
           <img
@@ -32,6 +35,7 @@ function About() {
             src={require("../assets/images/bootstrapIcon.png")}
             alt="html icon"
           />
+          <p>Bootstrap</p>
         </div>
 
         <div className="skillsImgWrapper">
@@ -40,6 +44,7 @@ function About() {
             src={require("../assets/images/jQueryIcon.png")}
             alt="html icon"
           />
+          <p>jQuery</p>
         </div>
         <div className="skillsImgWrapper">
           <img
@@ -47,6 +52,7 @@ function About() {
             src={require("../assets/images/reactIcon.png")}
             alt="html icon"
           />
+          <p>React</p>
         </div>
       </div>
     </section>

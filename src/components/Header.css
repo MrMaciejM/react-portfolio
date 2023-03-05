@@ -59,9 +59,7 @@ header nav a {
   filter: grayscale(0);
 }
 .cvImg {
-  height: 60% !important;
-  margin-top: 20%;
-  filter: invert(0.15);
+  filter: invert(0.8);
 }
 .socialIconsLink p {
   margin: 0 !important;

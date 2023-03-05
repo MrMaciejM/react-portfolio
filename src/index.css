@@ -27,6 +27,10 @@
     margin-bottom: 2rem !important;
     column-gap: 0 !important;
   }
+  .contactIconsContainer div img {
+    width: 70% !important;
+    height: auto !important;
+  }
 
   header nav {
     display: flex;
@@ -42,7 +46,7 @@
     padding: 0 !important;
   }
 
-  /* INTRO SECTION */
+  /****** INTRO SECTION ******/
   .introSection {
     display: flex !important;
     flex-direction: column !important;
@@ -71,7 +75,7 @@
     max-width: 70% !important;
     height: auto !important;
     border-radius: 11px !important;
-    border: solid 1px #5203b3;
+    /* border: solid 1px #5203b3; */
   }
 
   .laptopContainer {
@@ -90,7 +94,34 @@
     margin-top: 1rem !important;
   }
 
-  /* PROJECTS */
+  /****** ABOUT/SKILLS ******/
+  .aboutSection {
+    margin-top: 14rem;
+  }
+  .aboutContainer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    /* gap: 1rem; */
+    row-gap: 2rem;
+    justify-content: center;
+    margin: 0 !important;
+  }
+
+  .skillsContainer {
+  }
+
+  .skillsImgWrapper {
+    text-align: center;
+  }
+  .skillsImgWrapper img {
+    width: 60%;
+    height: auto !important;
+  }
+  .skillsImgWrapper p {
+    text-align: center !important;
+  }
+
+  /****** PROJECTS ******/
   .projectsSection {
     display: grid !important;
     grid-template-columns: 1fr !important;
@@ -120,30 +151,140 @@
     height: auto !important;
   }
 
-  /* ABOUT/SKILLS */
-  .aboutSection {
-    margin-top: 14rem;
+  /****** CONTACT FORM ******/
+
+  .contactContainer {
+    margin: 14rem 0 !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
   }
-  .aboutContainer {
+  form {
+    background-image: url("../../react-portfolio/src/assets/images/galaxyAI.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 90% !important;
+    min-width: 45% !important;
+  }
+  .formElementsWrapper {
     display: grid !important;
-    grid-template-columns: 1fr 1fr 1fr !important;
-    gap: 2rem;
-    justify-content: space-around !important;
+    grid-template-columns: 1fr !important;
+    justify-content: center !important;
+    /* max-width: 100% !important; */
+  }
+  form input {
+    margin: 0 2rem !important;
+    max-width: 60% !important;
+  }
+  .textAreaDiv textarea {
+    max-width: 70% !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  /*  */
+  /* HEADER/SOCIAL ICONS */
+
+  /* HEADER */
+  header {
+    display: grid !important;
+    grid-template-columns: 1fr;
   }
 
-  .skillsContainer {
-    justify-content: space-between !important;
+  header nav {
+    display: flex !important;
+    justify-content: space-evenly;
+    flex-direction: row !important;
   }
 
-  .skillsImgWrapper {
-    /*  */
+  header nav a {
+    text-decoration: underline #8e48fe !important;
   }
+
+  .contactIconsContainer {
+    justify-content: space-evenly;
+  }
+
+  /* ABOUT/SKILLS */
   .skillsImgWrapper img {
-    width: 100% !important;
+    width: 50%;
     height: auto !important;
   }
-  .skillIconHtmlJs {
-    width: 20px !important;
-    /* height: auto !important; */
+}
+
+@media screen and (min-width: 600px) {
+  .skillsImgWrapper img {
+    width: 40%;
+    height: auto !important;
   }
+}
+
+@media screen and (min-width: 750px) {
+  header {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contactIconsContainer {
+    display: flex !important;
+    justify-content: left !important;
+    text-align: start !important;
+  }
+  #cv-p-element {
+    text-align: start !important;
+    margin-left: 1.35rem !important;
+  }
+  header nav {
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding: 0 !important;
+    margin-right: 0.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  header nav a {
+    text-decoration: none !important;
+  }
+  header nav a:nth-child(2) {
+    margin: 0 2.2rem !important;
+  }
+
+  /* INTRO SECTION */
+  .introSection {
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 0 !important;
+    margin-top: 6rem !important;
+    padding: 0 !important;
+  }
+  .introHeadingsContainer {
+    width: 80% !important;
+  }
+  .introHeading {
+    font-size: 2.8rem !important;
+  }
+
+  .profilePic {
+    width: 50% !important;
+  }
+
+  .laptopContainer {
+    width: 70% !important;
+    margin-left: -6rem !important;
+    margin-top: 5rem !important;
+  }
+
+  /******* SKILLS/ABOUT *******/
+  .skillsImgWrapper img {
+    width: 30%;
+    height: auto !important;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  /* SKILLS/ABOUT */
+  .skillsImgWrapper img {
+    width: 25%;
+    height: auto !important;
+  }
+
+  /***** PROJECTS *****/
 }
