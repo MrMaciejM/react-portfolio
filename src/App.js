@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
+import { Link } from "react-scroll";
+
 import Header from "./components/Header";
 import "./components/Header.css";
 

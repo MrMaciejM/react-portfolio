@@ -18,7 +18,7 @@ function Projects() {
                 href="https://github.com/MrMaciejM/GlobeTrotter"
               >
                 <img
-                  src={require("../assets/images/globeTrotter-highRes.png")}
+                  src={require("../assets/images/fGlobeTrotter.png")}
                   alt={"password generator app"}
                 />
               </a>
@@ -63,7 +63,7 @@ function Projects() {
                 href="https://github.com/MrMaciejM/weather-dashboard"
               >
                 <img
-                  src={require("../assets/images/weather-app.png")}
+                  src={require("../assets/images/fWeatherApp.png")}
                   alt={"weather api dashboard"}
                 />
               </a>
@@ -104,7 +104,7 @@ function Projects() {
             <div className="projectsWrapperDiv">
               <a target={"_blank"} rel={"noreferrer"} href="#_blank">
                 <img
-                  src={require("../assets/images/team-gen-highRes.png")}
+                  src={require("../assets/images/fTeamGenerator.png")}
                   alt={"Node.js team generator project"}
                 />
               </a>
@@ -137,7 +137,7 @@ function Projects() {
                 href="https://github.com/MrMaciejM/daily-planner-app"
               >
                 <img
-                  src={require("../assets/images/daily-planner.png")}
+                  src={require("../assets/images/fDailyPlanner.png")}
                   alt={"daily planner app"}
                 />
               </a>
@@ -181,7 +181,7 @@ function Projects() {
                 href="https://github.com/MrMaciejM/product-landing-page-v1"
               >
                 <img
-                  src={require("../assets/images/landing-page-v1.png")}
+                  src={require("../assets/images/fLandingPage.png")}
                   alt={"password generator app"}
                 />
               </a>
@@ -223,7 +223,7 @@ function Projects() {
                 href="https://github.com/MrMaciejM/password-generator"
               >
                 <img
-                  src={require("../assets/images/pwd-generator.png")}
+                  src={require("../assets/images/fPwdGen.png")}
                   alt={"password generator app"}
                 />
               </a>

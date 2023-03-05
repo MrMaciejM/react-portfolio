@@ -37,7 +37,7 @@ header nav a {
   text-align: center;
   column-gap: 3rem;
   margin-right: 40rem;
-  /* NOTE: margin-right pushes socail icons away a little bit */
+  /* NOTE: margin-right pushes social icons away a little bit */
   /* text-align centers the icons, which for some reason reacts to text alignment */
 }
 .contactIconsContainer div {
@@ -66,9 +66,4 @@ header nav a {
 .socialIconsLink p {
   margin: 0 !important;
   padding: 0 !important;
-}
-
-/* hides home element, without disrupting alignment of other elements */
-header nav a:first-of-type {
-  visibility: hidden !important;
 }

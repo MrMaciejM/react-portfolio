@@ -1,5 +1,5 @@
 import "./Header.css";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 function Header() {
   return (
@@ -54,7 +54,7 @@ function Header() {
       </div>
       <div className="navContainer">
         <nav>
-          <NavLink to="/react-portfolio">Home</NavLink>
+          {/* <NavLink to="/react-portfolio">Home</NavLink> */}
           <Link to="#projectsId">Projects</Link>
           <Link to="#aboutId">About</Link>
           <Link to="#contactId">Contact</Link>
