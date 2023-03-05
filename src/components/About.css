@@ -22,9 +22,7 @@
 .aboutContainer div p {
   text-align: left;
 }
-.aboutContainer div:nth-child(2) {
-  margin-top: 1rem;
-}
+
 .smallDivider {
   height: 2px;
   background-color: #fff;

@@ -24,8 +24,8 @@ function App() {
     <div className="divMain">
       <Header></Header>
       <Intro></Intro>
-      <Projects></Projects>
       <About></About>
+      <Projects></Projects>
       <Contact></Contact>
       {/* <Routes>
         <Route path="/react-portfolio" element={<Intro />}></Route>

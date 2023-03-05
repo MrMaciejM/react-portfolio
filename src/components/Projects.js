@@ -5,8 +5,8 @@ function Projects() {
   //
   return (
     <section className="projectsSection">
-      <h2>Projects</h2>
-      <div id="projectsId" className="divider"></div>
+      <h2 id="projectsId">Projects</h2>
+      <div className="divider"></div>
       <div className="projectsContainer">
         <div className="projectWrapper">
           {/* Project 1 */}

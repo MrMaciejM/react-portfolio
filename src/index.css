@@ -6,8 +6,10 @@
     margin: 0 10px !important;
   }
 
+  /* H" Scroll behaviour */
   h2 {
     font-size: 2.4rem !important;
+    scroll-margin-top: 2rem;
   }
 
   /* HEADER */
@@ -116,5 +118,32 @@
   .projectWrapper div img {
     max-width: 100% !important;
     height: auto !important;
+  }
+
+  /* ABOUT/SKILLS */
+  .aboutSection {
+    margin-top: 14rem;
+  }
+  .aboutContainer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 2rem;
+    justify-content: space-around !important;
+  }
+
+  .skillsContainer {
+    justify-content: space-between !important;
+  }
+
+  .skillsImgWrapper {
+    /*  */
+  }
+  .skillsImgWrapper img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .skillIconHtmlJs {
+    width: 20px !important;
+    /* height: auto !important; */
   }
 }
