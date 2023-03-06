@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.43a0f828.css",
-    "main.js": "/react-portfolio/static/js/main.7c9ab2e1.js",
-    "static/media/globeTrotter-highRes.png": "/react-portfolio/static/media/globeTrotter-highRes.3a4165a52e113f7e29ac.png",
-    "static/media/landing-page-v1.png": "/react-portfolio/static/media/landing-page-v1.9356a051997f28ae7362.png",
-    "static/media/team-gen-highRes.png": "/react-portfolio/static/media/team-gen-highRes.bf481b965947e8d9fb71.png",
+    "main.css": "/react-portfolio/static/css/main.a2d2b39d.css",
+    "main.js": "/react-portfolio/static/js/main.54c6c1a2.js",
+    "static/media/galaxyAI.png": "/react-portfolio/static/media/galaxyAI.8ecab5698ee1efd7721d.png",
+    "static/media/fGlobeTrotter.png": "/react-portfolio/static/media/fGlobeTrotter.eb309691d6ccf1e267dc.png",
+    "static/media/fLandingPage.png": "/react-portfolio/static/media/fLandingPage.3473ab4dd0c2c8c1a442.png",
     "static/media/profile_pic_bootcamp.png": "/react-portfolio/static/media/profile_pic_bootcamp.538383c26134f3af2006.png",
-    "static/media/daily-planner.png": "/react-portfolio/static/media/daily-planner.ca2c630f6aa41d75fc36.png",
-    "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.d11d80b18aa7b8324a50.png",
-    "static/media/pwd-generator.png": "/react-portfolio/static/media/pwd-generator.86a20794f9ed98845d15.png",
+    "static/media/fTeamGenerator.png": "/react-portfolio/static/media/fTeamGenerator.2fb4d617cd9dc0c7cfcc.png",
+    "static/media/fWeatherApp.png": "/react-portfolio/static/media/fWeatherApp.45e912652c56d9911d21.png",
+    "static/media/fDailyPlanner.png": "/react-portfolio/static/media/fDailyPlanner.5a5ed6c48a0f78153cf2.png",
+    "static/media/fPwdGen.png": "/react-portfolio/static/media/fPwdGen.f4e1f0de9efe6543dd94.png",
     "index.html": "/react-portfolio/index.html",
-    "main.43a0f828.css.map": "/react-portfolio/static/css/main.43a0f828.css.map",
-    "main.7c9ab2e1.js.map": "/react-portfolio/static/js/main.7c9ab2e1.js.map"
+    "main.a2d2b39d.css.map": "/react-portfolio/static/css/main.a2d2b39d.css.map",
+    "main.54c6c1a2.js.map": "/react-portfolio/static/js/main.54c6c1a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.43a0f828.css",
-    "static/js/main.7c9ab2e1.js"
+    "static/css/main.a2d2b39d.css",
+    "static/js/main.54c6c1a2.js"
   ]
 }
