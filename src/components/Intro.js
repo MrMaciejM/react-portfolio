@@ -6,7 +6,9 @@ function Intro() {
         <h1 className={"introHeading"}>
           Hi, I'm <span>Maciej</span>.
         </h1>
-        <p className="smallHeadline">A Front-End developer.</p>
+        <p id="smallHeadline" className="smallHeadline">
+          A Front-End developer.
+        </p>
         <img
           className={"profilePic"}
           src={require("../assets/images/profile_pic_bootcamp.png")}
