@@ -378,3 +378,14 @@
     margin-top: 20rem !important;
   }
 }
+
+@media screen and (min-width: 1800px) {
+  .profilePic {
+    width: 30% !important;
+  }
+
+  .laptopContainer {
+    margin-top: 12rem !important;
+    margin-right: 16rem !important;
+  }
+}

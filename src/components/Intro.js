@@ -24,7 +24,11 @@ function Intro() {
         <p>
           My action plan, which I <span>currently</span> pursue, is to continue
           to learn and expand my current skills and knowledge.
-        </p>{" "}
+        </p>
+        <p>
+          I always aim to be a <span>strong asset</span> to fellow colleagues,
+          mentors and teams for any business I work for.
+        </p>
         <p>Long term goal is to become a Full-Stack engineer.</p>
       </div>
       <div className="sphereGuide"></div>
