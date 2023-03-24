@@ -31,10 +31,10 @@ function Projects() {
                 <span className="tech techHtml">HTML5</span>
                 <span className=" tech techCss">CSS3</span>
                 <span className=" tech techJS">JS</span>
-                <span className=" tech techCss">React</span>
+                <span className=" tech techReact">React</span>
                 <span className=" tech techJquery">ChakraUI</span>
                 <span className=" tech techApi">API</span>
-                <span className=" tech bstrap">GitHub Kanban</span>
+                <span className=" tech bstrap">Kanban</span>
               </div>
               <div className="projectLinksBottom">
                 <a
@@ -70,7 +70,8 @@ function Projects() {
               <h4>Weather Dashboard</h4>
               <p>
                 Weather dashboard utilising several stacks, however, the main
-                goal was to learn how to use the APIs.
+                goal was to learn how to use the APIs and work with
+                localStorage.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
@@ -99,31 +100,47 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* Project 3 - team generator */}
-          <div className="project3Div">
+          {/* End of project 2 - weather dashboard */}
+          {/* Project 3 - Expenses Tracker*/}
+          <div className="project6Div">
             <div className="projectsWrapperDiv">
-              <a target={"_blank"} rel={"noreferrer"} href="#_blank">
+              <a
+                target={"_blank"}
+                rel={"noreferrer"}
+                href="https://github.com/MrMaciejM/expense-tracker"
+              >
                 <img
-                  src={require("../assets/images/fTeamGenerator.png")}
-                  alt={"Node.js team generator project"}
+                  src={require("../assets/images/fExpenseTracker.png")}
+                  alt={"password generator app"}
                 />
               </a>
-              <h4>Team Generator</h4>
+              <h4>Expenses Tracker</h4>
               <p>
-                A terminal app that was built with Node.js to collect user input
-                and render an HTML file with the generated team based on
-                collected inputs.
+                Expenses tracker app built with React to help keep track of
+                expenses, as well as date of expenses and sums up the total of
+                expenses.
               </p>
               <div className="techDiv">
                 <span className="tech techHtml">HTML5</span>
                 <span className=" tech techCss">CSS3</span>
                 <span className=" tech techJS">JS</span>
-                <span className=" tech nodejs">Node.js</span>
-                <span className=" tech jest">jest</span>
+                <span className=" tech techReact">React</span>
               </div>
               <div className="projectLinksBottom">
-                <a href="#_blank">Site</a>
-                <a href="#_blank">GitHub</a>
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://mrmaciejm.github.io/expense-tracker/"
+                >
+                  Site
+                </a>
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://github.com/MrMaciejM/expense-tracker"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
           </div>
@@ -172,6 +189,35 @@ function Projects() {
             </div>
           </div>
           {/* End of Project 4*/}
+          {/* Project 3 - team generator */}
+          <div className="project3Div">
+            <div className="projectsWrapperDiv">
+              <a target={"_blank"} rel={"noreferrer"} href="#_blank">
+                <img
+                  src={require("../assets/images/fTeamGenerator.png")}
+                  alt={"Node.js team generator project"}
+                />
+              </a>
+              <h4>Team Generator</h4>
+              <p>
+                A terminal app that was built with Node.js to collect user input
+                and render an HTML file with the generated team based on
+                collected inputs.
+              </p>
+              <div className="techDiv">
+                <span className="tech techHtml">HTML5</span>
+                <span className=" tech techCss">CSS3</span>
+                <span className=" tech techJS">JS</span>
+                <span className=" tech nodejs">Node.js</span>
+                <span className=" tech jest">jest</span>
+              </div>
+              <div className="projectLinksBottom">
+                <a href="#_blank">Site</a>
+                <a href="#_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          {/* End of Project 3*/}
           {/* Project 5 - Landing Page*/}
           <div className="project5Div">
             <div className="projectsWrapperDiv">
@@ -214,48 +260,6 @@ function Projects() {
             </div>
           </div>
           {/* End of Project 5*/}
-          {/* Project 6*/}
-          <div className="project6Div">
-            <div className="projectsWrapperDiv">
-              <a
-                target={"_blank"}
-                rel={"noreferrer"}
-                href="https://github.com/MrMaciejM/password-generator"
-              >
-                <img
-                  src={require("../assets/images/fPwdGen.png")}
-                  alt={"password generator app"}
-                />
-              </a>
-              <h4>Password Generator</h4>
-              <p>
-                Password generator app that generates a password based on
-                various user inputs, also has valdiation checks.
-              </p>
-              <div className="techDiv">
-                <span className="tech techHtml">HTML5</span>
-                <span className=" tech techCss">CSS3</span>
-                <span className=" tech techJS">JS</span>
-              </div>
-              <div className="projectLinksBottom">
-                <a
-                  target={"_blank"}
-                  rel="noreferrer"
-                  href="https://mrmaciejm.github.io/password-generator/"
-                >
-                  Site
-                </a>
-                <a
-                  target={"_blank"}
-                  rel="noreferrer"
-                  href="https://github.com/MrMaciejM/password-generator"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* End of Project 6*/}
         </div>
       </div>
     </section>
