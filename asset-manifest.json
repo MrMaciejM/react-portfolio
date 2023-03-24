@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.4d919104.css",
-    "main.js": "/react-portfolio/static/js/main.4c2a9e8d.js",
+    "main.css": "/react-portfolio/static/css/main.64f523cb.css",
+    "main.js": "/react-portfolio/static/js/main.e10d3b16.js",
     "static/media/galaxyAI.png": "/react-portfolio/static/media/galaxyAI.8ecab5698ee1efd7721d.png",
     "static/media/fGlobeTrotter.png": "/react-portfolio/static/media/fGlobeTrotter.eb309691d6ccf1e267dc.png",
     "static/media/fLandingPage.png": "/react-portfolio/static/media/fLandingPage.3473ab4dd0c2c8c1a442.png",
@@ -9,13 +9,13 @@
     "static/media/fTeamGenerator.png": "/react-portfolio/static/media/fTeamGenerator.2fb4d617cd9dc0c7cfcc.png",
     "static/media/fWeatherApp.png": "/react-portfolio/static/media/fWeatherApp.45e912652c56d9911d21.png",
     "static/media/fDailyPlanner.png": "/react-portfolio/static/media/fDailyPlanner.5a5ed6c48a0f78153cf2.png",
-    "static/media/fPwdGen.png": "/react-portfolio/static/media/fPwdGen.f4e1f0de9efe6543dd94.png",
+    "static/media/fExpenseTracker.png": "/react-portfolio/static/media/fExpenseTracker.10c673aa786ce2602d59.png",
     "index.html": "/react-portfolio/index.html",
-    "main.4d919104.css.map": "/react-portfolio/static/css/main.4d919104.css.map",
-    "main.4c2a9e8d.js.map": "/react-portfolio/static/js/main.4c2a9e8d.js.map"
+    "main.64f523cb.css.map": "/react-portfolio/static/css/main.64f523cb.css.map",
+    "main.e10d3b16.js.map": "/react-portfolio/static/js/main.e10d3b16.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d919104.css",
-    "static/js/main.4c2a9e8d.js"
+    "static/css/main.64f523cb.css",
+    "static/js/main.e10d3b16.js"
   ]
 }
