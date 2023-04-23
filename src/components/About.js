@@ -54,6 +54,14 @@ function About() {
           />
           <p>React</p>
         </div>
+        <div className="skillsImgWrapper">
+          <img
+            className="skillIconHtmlJs"
+            src={require("../assets/images/typescript-96.png")}
+            alt="typescript icon"
+          />
+          <p>TypeScript</p>
+        </div>
       </div>
     </section>
   );

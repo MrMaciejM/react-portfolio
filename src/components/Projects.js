@@ -111,7 +111,7 @@ function Projects() {
               >
                 <img
                   src={require("../assets/images/fExpenseTracker.png")}
-                  alt={"password generator app"}
+                  alt={"expense tracker app"}
                 />
               </a>
               <h4>Expenses Tracker</h4>
@@ -138,6 +138,50 @@ function Projects() {
                   target={"_blank"}
                   rel="noreferrer"
                   href="https://github.com/MrMaciejM/expense-tracker"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* End of Project 3*/}
+          {/* Project 3.5 - myEmptor*/}
+          <div className="project6Div">
+            <div className="projectsWrapperDiv">
+              <a
+                target={"_blank"}
+                rel={"noreferrer"}
+                href="https://github.com/MrMaciejM/myemptor-app"
+              >
+                <img
+                  src={require("../assets/images/myEmptor-portfolio.png")}
+                  alt={"myEmptor"}
+                />
+              </a>
+              <h4>myEmptor</h4>
+              <p>
+                A client and finance tracking dashboard built in TypeScript with
+                several functionality such as sorting by different options,
+                taking backups and restoring backups
+              </p>
+              <div className="techDiv">
+                <span className="tech techHtml">HTML5</span>
+                <span className=" tech techCss">CSS3</span>
+                <span className=" tech techJS">JS</span>
+                <span className=" tech techCss">TypeScript</span>
+              </div>
+              <div className="projectLinksBottom">
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://mrmaciejm.github.io/myemptor-app/"
+                >
+                  Site
+                </a>
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://github.com/MrMaciejM/myemptor-app"
                 >
                   GitHub
                 </a>

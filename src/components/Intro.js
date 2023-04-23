@@ -18,7 +18,7 @@ function Intro() {
       <div className="laptopContainer">
         <h3 className="obligatoryIntro">Short about</h3>
         <p>
-          An IT professional turned Front-End Developer. I am looking for my{" "}
+          A Front-End Developer with an IT background. I am looking for my{" "}
           <span>first chance</span> to break into the industry.{" "}
         </p>
         <p>
