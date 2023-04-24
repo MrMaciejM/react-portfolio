@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.64f523cb.css",
-    "main.js": "/react-portfolio/static/js/main.5638d56d.js",
+    "main.js": "/react-portfolio/static/js/main.0c6d186f.js",
     "static/media/galaxyAI.png": "/react-portfolio/static/media/galaxyAI.8ecab5698ee1efd7721d.png",
     "static/media/fGlobeTrotter.png": "/react-portfolio/static/media/fGlobeTrotter.eb309691d6ccf1e267dc.png",
     "static/media/fLandingPage.png": "/react-portfolio/static/media/fLandingPage.3473ab4dd0c2c8c1a442.png",
     "static/media/profile_pic_bootcamp.png": "/react-portfolio/static/media/profile_pic_bootcamp.538383c26134f3af2006.png",
     "static/media/fTeamGenerator.png": "/react-portfolio/static/media/fTeamGenerator.2fb4d617cd9dc0c7cfcc.png",
+    "static/media/myEmptor-portfolio.png": "/react-portfolio/static/media/myEmptor-portfolio.6c98edb2235c84b5ba72.png",
     "static/media/fWeatherApp.png": "/react-portfolio/static/media/fWeatherApp.45e912652c56d9911d21.png",
-    "static/media/myEmptor-portfolio.png": "/react-portfolio/static/media/myEmptor-portfolio.1d3fe61266f6d44f3c0e.png",
     "static/media/fDailyPlanner.png": "/react-portfolio/static/media/fDailyPlanner.5a5ed6c48a0f78153cf2.png",
     "static/media/fExpenseTracker.png": "/react-portfolio/static/media/fExpenseTracker.10c673aa786ce2602d59.png",
     "index.html": "/react-portfolio/index.html",
     "main.64f523cb.css.map": "/react-portfolio/static/css/main.64f523cb.css.map",
-    "main.5638d56d.js.map": "/react-portfolio/static/js/main.5638d56d.js.map"
+    "main.0c6d186f.js.map": "/react-portfolio/static/js/main.0c6d186f.js.map"
   },
   "entrypoints": [
     "static/css/main.64f523cb.css",
-    "static/js/main.5638d56d.js"
+    "static/js/main.0c6d186f.js"
   ]
 }
