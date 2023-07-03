@@ -101,6 +101,51 @@ function Projects() {
             </div>
           </div>
           {/* End of project 2 - weather dashboard */}
+
+          {/* Project - Card Champions */}
+          <div className="project2Div">
+            <div className="projectsWrapperDiv">
+              <a
+                target={"_blank"}
+                rel={"noreferrer"}
+                href="https://mrmaciejm.github.io/card-champions/"
+              >
+                <img
+                  src={require("../assets/images/fCardChampions.png")}
+                  alt={"card champions game"}
+                />
+              </a>
+              <h4>Card Champions</h4>
+              <p>
+                A card game based on the ever-popular Rock, Paper, Scissors
+                game. All assets were drawn, designed and programmed by myself.
+              </p>
+              <div className="techDiv">
+                <span className="tech techHtml">HTML5</span>
+                <span className=" tech techCss">CSS3</span>
+                <span className=" tech techJS">JS</span>
+                <span className=" tech techReact">React</span>
+              </div>
+              <div className="projectLinksBottom">
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://mrmaciejm.github.io/card-champions/"
+                >
+                  Site
+                </a>
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://github.com/MrMaciejM/card-champions"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* End of project - Card Champions */}
+
           {/* Project 3 - Expenses Tracker*/}
           <div className="project6Div">
             <div className="projectsWrapperDiv">
