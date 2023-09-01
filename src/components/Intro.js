@@ -7,7 +7,7 @@ function Intro() {
           Hi, I'm <span>Maciej</span>.
         </h1>
         <p id="smallHeadline" className="smallHeadline">
-          A Front-End developer.
+          I'm a Front-End developer.
         </p>
         <img
           className={"profilePic"}

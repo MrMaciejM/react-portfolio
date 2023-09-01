@@ -54,53 +54,6 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* Project 2 - weather dashboard */}
-          <div className="project2Div">
-            <div className="projectsWrapperDiv">
-              <a
-                target={"_blank"}
-                rel={"noreferrer"}
-                href="https://github.com/MrMaciejM/weather-dashboard"
-              >
-                <img
-                  src={require("../assets/images/fWeatherApp.png")}
-                  alt={"weather api dashboard"}
-                />
-              </a>
-              <h4>Weather Dashboard</h4>
-              <p>
-                Weather dashboard utilising several stacks, however, the main
-                goal was to learn how to use the APIs and work with
-                localStorage.
-              </p>
-              <div className="techDiv">
-                <span className="tech techHtml">HTML5</span>
-                <span className=" tech techCss">CSS3</span>
-                <span className=" tech techJquery">jQuery</span>
-                <span className=" tech techJS">JS</span>
-                <span className=" tech techMoment">Moment.js</span>
-                <span className=" tech techApi">API</span>
-                <span className=" tech bstrap">Bootstrap</span>
-              </div>
-              <div className="projectLinksBottom">
-                <a
-                  target={"_blank"}
-                  rel="noreferrer"
-                  href="https://mrmaciejm.github.io/weather-dashboard/"
-                >
-                  Site
-                </a>
-                <a
-                  target={"_blank"}
-                  rel="noreferrer"
-                  href="https://github.com/MrMaciejM/weather-dashboard"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* End of project 2 - weather dashboard */}
 
           {/* Project - Card Champions */}
           <div className="project2Div">
@@ -146,7 +99,99 @@ function Projects() {
           </div>
           {/* End of project - Card Champions */}
 
-          {/* Project 3 - Expenses Tracker*/}
+          {/* Project - Restaurant Page */}
+          <div className="project1Div">
+            <div className="projectsWrapperDiv">
+              <a
+                target={"_blank"}
+                rel={"noreferrer"}
+                href="https://mrmaciejm.github.io/restaurant-site/"
+              >
+                <img
+                  src={require("../assets/images/fRestaurantSite.png")}
+                  alt={"restaurant site"}
+                />
+              </a>
+              <h4>Restaurant Site</h4>
+              <p>
+                A restaurant site built with mobile-first approach in mind and
+                ease of use - particularly when it comes to navigation and
+                convenience
+              </p>
+              <div className="techDiv">
+                <span className="tech techHtml">HTML5</span>
+                <span className=" tech techCss">CSS3</span>
+                <span className=" tech techJS">JS</span>
+                <span className=" tech bstrap">Bootstrap</span>
+              </div>
+              <div className="projectLinksBottom">
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://mrmaciejm.github.io/restaurant-site/"
+                >
+                  Site
+                </a>
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://github.com/MrMaciejM/restaurant-site"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project - weather dashboard */}
+          <div className="project2Div">
+            <div className="projectsWrapperDiv">
+              <a
+                target={"_blank"}
+                rel={"noreferrer"}
+                href="https://github.com/MrMaciejM/weather-dashboard"
+              >
+                <img
+                  src={require("../assets/images/fWeatherApp.png")}
+                  alt={"weather api dashboard"}
+                />
+              </a>
+              <h4>Weather Dashboard</h4>
+              <p>
+                Weather dashboard utilising several stacks, however, the main
+                goal was to learn how to use the APIs and work with
+                localStorage.
+              </p>
+              <div className="techDiv">
+                <span className="tech techHtml">HTML5</span>
+                <span className=" tech techCss">CSS3</span>
+                <span className=" tech techJquery">jQuery</span>
+                <span className=" tech techJS">JS</span>
+                <span className=" tech techMoment">Moment.js</span>
+                <span className=" tech techApi">API</span>
+                <span className=" tech bstrap">Bootstrap</span>
+              </div>
+              <div className="projectLinksBottom">
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://mrmaciejm.github.io/weather-dashboard/"
+                >
+                  Site
+                </a>
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href="https://github.com/MrMaciejM/weather-dashboard"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* End of project - weather dashboard */}
+
+          {/* Project - Expenses Tracker*/}
           <div className="project6Div">
             <div className="projectsWrapperDiv">
               <a
@@ -189,8 +234,9 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* End of Project 3*/}
-          {/* Project 3.5 - myEmptor*/}
+          {/* End of Project Expenses Tracker*/}
+
+          {/* Project - myEmptor */}
           <div className="project6Div">
             <div className="projectsWrapperDiv">
               <a
@@ -233,7 +279,8 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* End of Project 3*/}
+          {/* End of Project myEmptor*/}
+
           {/* Project 4*/}
           <div className="project4Div">
             <div className="projectsWrapperDiv">

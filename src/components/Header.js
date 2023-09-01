@@ -38,10 +38,10 @@ function Header() {
         <div className="cvIconContainer">
           <a
             className="socialIconsLink cvLink"
-            href="https://docs.google.com/document/d/1tJ3gR7qFPxynRQJ9lP1xTpACbjSwC89zXYF_6JxGqaY/edit?usp=sharing"
+            href={"/MaciejMatulewiczCV.docx"}
             target={"_blank"}
             rel="noreferrer"
-            download={"Maciej_Matulewicz_CV"}
+            download={"MaciejMatulewiczCV"}
           >
             <img
               className="socialIconsImg cvImg"
