@@ -38,7 +38,7 @@ function Header() {
         <div className="cvIconContainer">
           <a
             className="socialIconsLink cvLink"
-            href={"/MaciejMatulewiczCV.docx"}
+            href={"./MaciejMatulewiczCV.docx"}
             target={"_blank"}
             rel="noreferrer"
             download={"MaciejMatulewiczCV"}
